@@ -19,6 +19,10 @@ let package = Package(
           [
             "-Xfrontend", "-enable-experimental-move-only",
             "-Xfrontend", "-enable-builtin-module",
+            "-Xllvm", "-sil-inline-generics",
+            "-Xllvm", "-sil-partial-specialization",
+            "-Xfrontend", "-enable-lexical-lifetimes=false",
+            "-Xfrontend", "-enable-ossa-modules"
           ],
           .when(platforms: [.macOS])
         )
