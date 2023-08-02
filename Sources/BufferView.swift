@@ -138,8 +138,7 @@ extension BufferView:
   @inlinable @inline(__always)
   func _checkBounds(_ position: Index) {
     precondition(
-      distance(from: startIndex, to: position) >= 0 &&
-      distance(from: position, to: endIndex) > 0,
+      position >= startIndex && position <= endIndex,
       "Index out of bounds"
     )
     //FIXME: Use `BitwiseCopyable` layout constraint
