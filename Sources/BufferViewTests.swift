@@ -31,6 +31,10 @@ public func bufferviewtest3(_ v: BufferView<Int>) -> Int {
   return sum
 }
 
+@inline(never)
+public func blackhole<T>(_ t: inout T) {
+
+}
 public func bufferviewtest4(_ v: BufferView<Int>, _ i: BufferViewIndex<Int>) -> Bool {
   return v[i] == v[i]
 }
