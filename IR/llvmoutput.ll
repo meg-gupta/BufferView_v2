@@ -407,7 +407,7 @@ target triple = "arm64-apple-macosx14.0.0"
 @"$s10BufferView0aB8IteratorVHn" = private constant %swift.type_metadata_record { i32 trunc (i64 sub (i64 ptrtoint (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView0aB8IteratorVMn" to i64), i64 ptrtoint (%swift.type_metadata_record* @"$s10BufferView0aB8IteratorVHn" to i64)) to i32) }, section "__TEXT, __swift5_types, regular", no_sanitize_address, align 4
 @"$s10BufferView09OutputRawA0VHn" = private constant %swift.type_metadata_record { i32 trunc (i64 sub (i64 ptrtoint (<{ i32, i32, i32, i32, i32, i32, i32 }>* @"$s10BufferView09OutputRawA0VMn" to i64), i64 ptrtoint (%swift.type_metadata_record* @"$s10BufferView09OutputRawA0VHn" to i64)) to i32) }, section "__TEXT, __swift5_types, regular", no_sanitize_address, align 4
 @__swift_reflection_version = linkonce_odr hidden constant i16 3
-@llvm.used = appending global [202 x i8*] [i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeA7Pointeryqd__qd__SRyxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeC10RawPointeryqd__qd__Sv_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeC5Bytesyqd__qd__SwKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeC7Pointeryqd__qd__SpyxG_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafecA7Pointeryqd__qd__SryxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V014withContiguousC18StorageIfAvailableyqd__Sgqd__SryxGzKXEKlF" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V06unsafec3RawA7Pointer9dependsOnACyxGSgSw_qd__tclufC" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V06unsafecA7Pointer9dependsOnACyxGSgSryxG_qd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V10copyMemory4fromAA0aB5IndexVyxGA2AVyxG_tF" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V10startIndexAA0abE0VyxGvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V10storeBytes2of12toByteOffset2asyqd___Siqd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V10storeBytes2of2to2asyqd___AA0aB5IndexVyxGqd__mtlF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V11baseAddress5count9dependsOnACyxGSv_Siqd__tclufC" to i8*), i8* bitcast (void (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V12_checkBoundsyyAA0aB5IndexVyxGF" to i8*), i8* bitcast (void (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V12_checkBoundsyySnyAA0aB5IndexVyxGGF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V12makeIteratorAA0abE0VyxGyF" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V13loadUnaligned14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V13loadUnaligned4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V15withUnsafeBytesyqd__qd__SWKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V17withUnsafePointeryqd__qd__SPyxG_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V20withUnsafeRawPointeryqd__qd__SV_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V32withContiguousStorageIfAvailableyqd__Sgqd__SRyxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V4lastxSgvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V4load14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V4load4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (i64 (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5countSivg" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5firstxSgvg" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5index5afterAA0aB5IndexVyxGAH_tF" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5index6beforeAA0aB5IndexVyxGAH_tF" to i8*), i8* bitcast (i8* (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5index_8offsetByAA0aB5IndexVyxGAH_SitF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V5start5count9dependsOnACyxGAA0aB5IndexVyxG_Siqd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5startAA0aB5IndexVyxGvg" to i8*), i8* bitcast ({ i32 }* @"$s10BufferView07MutableaB0V5startAA0aB5IndexVyxGvpMV" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6offsetxSi_tciM" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6offsetxSi_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6offsetxSi_tcis" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6prefix4upToACyxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6prefixyACyxGSiF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6suffix4fromACyxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6suffixyACyxGSiF" to i8*), i8* bitcast (i8* (%swift.opaque*, i8*, i64, %swift.type*, %swift.type*, i8**)* @"$s10BufferView07MutableaB0V6update14fromContentsOfAA0aB5IndexVyxGqd___t7ElementQyd__RszSlRd__lF" to i8*), i8* bitcast (i8* (%swift.opaque*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, i8**)* @"$s10BufferView07MutableaB0V6update4from8IteratorQyd__9unwritten_AA0aB5IndexVyxG5indextqd___t7ElementQyd__RszSTRd__lF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6update9repeatingyx_tF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V7indicesSnyAA0aB5IndexVyxGGvg" to i8*), i8* bitcast (i1 (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V7isEmptySbvg" to i8*), i8* bitcast (i64 (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V8distance4from2toSiAA0aB5IndexVyxG_AItF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V8dropLastyACyxGSiF" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V8endIndexAA0abE0VyxGvg" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9dropFirstyACyxGSiF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9formIndex5afteryAA0abE0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9formIndex6beforeyAA0abE0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9formIndex_8offsetByyAA0abE0VyxGz_SitF" to i8*), i8* bitcast ({ i8*, %T10BufferView07MutableaB0V* } (i8*, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedACyxGSnyAA0aB5IndexVyxGG_tciM" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedACyxGSnyAA0aB5IndexVyxGG_tcig" to i8*), i8* bitcast (void (i8*, i64, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedACyxGSnyAA0aB5IndexVyxGG_tcis" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxAA0aB5IndexVyxG_tciM" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxAA0aB5IndexVyxG_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxAA0aB5IndexVyxG_tcis" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxSi_tciM" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxSi_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxSi_tcis" to i8*), i8* bitcast (i1 (i8*, i64, i8*, i64, %swift.type*, i8**)* @"$s10BufferView07MutableaB0VAASQRzlE13elementsEqualySbACyxGF" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView07MutableaB0VHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferView07MutableaB0VMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView07MutableaB0VMn" to i8*), i8* bitcast ({ i8*, %T10BufferView07MutableaB0V* } (i8*, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyACyxGSnyAA0aB5IndexVyxGGciM" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyACyxGSnyAA0aB5IndexVyxGGcig" to i8*), i8* bitcast (void (i8*, i64, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyACyxGSnyAA0aB5IndexVyxGGcis" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyxAA0aB5IndexVyxGciM" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyxAA0aB5IndexVyxGcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyxAA0aB5IndexVyxGcis" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSKAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSKAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSKAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSMAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSMAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSMAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSTAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSTAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSTAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSkAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSkAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSkAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSlAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSlAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSlAAMc" to i8*), i8* bitcast (i64 (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V10storeBytes2of12toByteOffset2asSix_SixmtlF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64)* @"$s10BufferView09OutputRawA0V11baseAddress5countACSv_SitcfC" to i8*), i8* bitcast (i8* (i8*, i64)* @"$s10BufferView09OutputRawA0V11baseAddressSvvg" to i8*), i8* bitcast (i1 (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V14hasPrefixRangeySbAA07MutableaB0VyxGlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, %swift.opaque*, i8*, i64, %swift.type*, i8**)* @"$s10BufferView09OutputRawA0V16initializeMemory2as14fromContentsOfAA07MutableaB0Vy7ElementQzGAJm_xtSlRzlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.opaque*, %swift.type*, %swift.opaque*, i8*, i64, %swift.type*, i8**)* @"$s10BufferView09OutputRawA0V16initializeMemory2as4from8IteratorQz9unwritten_AA07MutableaB0Vy7ElementQzG11initializedtAMm_xtSTRzlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, %swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V16initializeMemory2as9repeatingAA07MutableaB0VyxGxm_xtlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, i64, i64, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V20moveInitializeMemory2as14fromContentsOfAA07MutableaB0VyxGxm_SryxGtlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, i64, i64, i64, i64, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V20moveInitializeMemory2as14fromContentsOfAA07MutableaB0VyxGxm_s5SliceVySryxGGtlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView09OutputRawA0V24withUnsafeMutablePointer2as_AA0gaB0VyxGxm_SiSpyxG_SitKXEtKlF" to i8*), i8* bitcast (i64 (i8*, i64)* @"$s10BufferView09OutputRawA0V5countSivg" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView09OutputRawA0VHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView09OutputRawA0VMF" to i8*), i8* bitcast (%swift.metadata_response (i64)* @"$s10BufferView09OutputRawA0VMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32 }>* @"$s10BufferView09OutputRawA0VMn" to i8*), i8* bitcast (%swift.type* @"$s10BufferView09OutputRawA0VN" to i8*), i8* bitcast (i1 (i8*, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV1loiySbACyxG_AEtFZ" to i8*), i8* bitcast (void (%Ts6HasherV*, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV4hash4intoys6HasherVz_tF" to i8*), i8* bitcast (i8* (i64, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV8advanced2byACyxGSi_tF" to i8*), i8* bitcast (i64 (i8*, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV8distance2toSiACyxG_tF" to i8*), i8* bitcast (i8* (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV8rawValueACyxGSV_tcfC" to i8*), i8* bitcast (i8* (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV9_rawValueSVvg" to i8*), i8* bitcast (i64 (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV9hashValueSivg" to i8*), i8* bitcast (i1 (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV9isAlignedSbvg" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView0aB5IndexVHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32 }* @"$s10BufferView0aB5IndexVMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferView0aB5IndexVMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView0aB5IndexVMn" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSHAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSHAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSLAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSLAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSQAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSQAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSxAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSxAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSxAAMc" to i8*), i8* bitcast (void (%swift.opaque*, %swift.type*, %T10BufferView0aB8IteratorV*)* @"$s10BufferView0aB8IteratorV4nextxSgyF" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView0aB8IteratorVHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView0aB8IteratorVMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferView0aB8IteratorVMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView0aB8IteratorVMn" to i8*), i8* bitcast (i32* @"$s10BufferView0aB8IteratorVyxGStAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32 }* @"$s10BufferView0aB8IteratorVyxGStAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB8IteratorVyxGStAAMc" to i8*), i8* bitcast (i64 (i8*, i64)* @"$s10BufferView15bufferviewtest1ySiA2AVySiGF" to i8*), i8* bitcast (i64 (i8*, i64, i64)* @"$s10BufferView15bufferviewtest2ySiA2AVySiG_SitF" to i8*), i8* bitcast (i64 (i8*, i64)* @"$s10BufferView15bufferviewtest3ySiA2AVySiGF" to i8*), i8* bitcast (i1 (i8*, i64, i8*)* @"$s10BufferView15bufferviewtest4ySbA2AVySiG_AA0aB5IndexVySiGtF" to i8*), i8* bitcast (i64 (i8*, i64, i8*)* @"$s10BufferView15bufferviewtest5ySiA2AVySiG_AA0aB5IndexVySiGtF" to i8*), i8* bitcast (void (i8*, i64, i8*, i64)* @"$s10BufferView15bufferviewtest6yyAA07MutableaB0VySiG_AEtF" to i8*), i8* bitcast (void (i8*, i64)* @"$s10BufferView15bufferviewtest7yyAA07MutableaB0VySiGF" to i8*), i8* bitcast (i64 (i8*, i64, i64)* @"$s10BufferView16bufferviewtest2bySiA2AVySiG_SitF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV010withUnsafeA7Pointeryqd__qd__SRyxGKXEKlF" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV06unsafeA7Pointer9dependsOnAByxGSgSRyxG_qd__tclufC" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV09unsafeRawA7Pointer9dependsOnAByxGSgSW_qd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferViewAAV10startIndexAA0abD0VyxGvg" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV11baseAddress5count9dependsOnAByxGSV_Siqd__tclufC" to i8*), i8* bitcast (void (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV12_checkBoundsyyAA0aB5IndexVyxGF" to i8*), i8* bitcast (void (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV12_checkBoundsyySnyAA0aB5IndexVyxGGF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferViewAAV12makeIteratorAA0abD0VyxGyF" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV13loadUnaligned14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV13loadUnaligned4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV15uncheckedOffsetxSi_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV15withUnsafeBytesyqd__qd__SWKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV17withUnsafePointeryqd__qd__SPyxG_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV20withUnsafeRawPointeryqd__qd__SV_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV32withContiguousStorageIfAvailableyqd__Sgqd__SRyxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV4lastxSgvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV4load14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV4load4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (i64 (i8*, i64, %swift.type*)* @"$s10BufferViewAAV5countSivg" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5firstxSgvg" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5index5afterAA0aB5IndexVyxGAG_tF" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5index6beforeAA0aB5IndexVyxGAG_tF" to i8*), i8* bitcast (i8* (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5index_8offsetByAA0aB5IndexVyxGAG_SitF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV5start5count9dependsOnAByxGAA0aB5IndexVyxG_Siqd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferViewAAV5startAA0aB5IndexVyxGvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6offsetxSi_tcig" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6prefix4upToAByxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6prefixyAByxGSiF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6suffix4fromAByxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6suffixyAByxGSiF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferViewAAV7indicesSnyAA0aB5IndexVyxGGvg" to i8*), i8* bitcast (i1 (i8*, i64, %swift.type*)* @"$s10BufferViewAAV7isEmptySbvg" to i8*), i8* bitcast (i64 (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV8distance4from2toSiAA0aB5IndexVyxG_AHtF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV8dropLastyAByxGSiF" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferViewAAV8endIndexAA0abD0VyxGvg" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9dropFirstyAByxGSiF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9formIndex5afteryAA0abD0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9formIndex6beforeyAA0abD0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9formIndex_8offsetByyAA0abD0VyxGz_SitF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9uncheckedAByxGSnyAA0aB5IndexVyxGG_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9uncheckedxAA0aB5IndexVyxG_tcig" to i8*), i8* bitcast (i1 (i8*, i64, i8*, i64, %swift.type*, i8**)* @"$s10BufferViewAAVAASQRzlE13elementsEqualySbAByxGF" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferViewAAVHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferViewAAVMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferViewAAVMn" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.type*)* @"$s10BufferViewAAVyAByxGAA07MutableaB0VyxGcfC" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAVyAByxGSnyAA0aB5IndexVyxGGcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAVyxAA0aB5IndexVyxGcig" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSKAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSKAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSKAAMc" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSTAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSTAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSTAAMc" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSkAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSkAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSkAAMc" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSlAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSlAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSlAAMc" to i8*), i8* bitcast (i16* @__swift_reflection_version to i8*)], section "llvm.metadata"
+@llvm.used = appending global [204 x i8*] [i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeA7Pointeryqd__qd__SRyxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeC10RawPointeryqd__qd__Sv_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeC5Bytesyqd__qd__SwKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafeC7Pointeryqd__qd__SpyxG_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V010withUnsafecA7Pointeryqd__qd__SryxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V014withContiguousC18StorageIfAvailableyqd__Sgqd__SryxGzKXEKlF" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V06unsafec3RawA7Pointer9dependsOnACyxGSgSw_qd__tclufC" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V06unsafecA7Pointer9dependsOnACyxGSgSryxG_qd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V10copyMemory4fromAA0aB5IndexVyxGA2AVyxG_tF" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V10startIndexAA0abE0VyxGvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V10storeBytes2of12toByteOffset2asyqd___Siqd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V10storeBytes2of2to2asyqd___AA0aB5IndexVyxGqd__mtlF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V11baseAddress5count9dependsOnACyxGSv_Siqd__tclufC" to i8*), i8* bitcast (void (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V12_checkBoundsyyAA0aB5IndexVyxGF" to i8*), i8* bitcast (void (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V12_checkBoundsyySnyAA0aB5IndexVyxGGF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V12makeIteratorAA0abE0VyxGyF" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V13loadUnaligned14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V13loadUnaligned4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V15withUnsafeBytesyqd__qd__SWKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V17withUnsafePointeryqd__qd__SPyxG_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V20withUnsafeRawPointeryqd__qd__SV_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView07MutableaB0V32withContiguousStorageIfAvailableyqd__Sgqd__SRyxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V4lastxSgvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V4load14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V4load4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (i64 (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5countSivg" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5firstxSgvg" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5index5afterAA0aB5IndexVyxGAH_tF" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5index6beforeAA0aB5IndexVyxGAH_tF" to i8*), i8* bitcast (i8* (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5index_8offsetByAA0aB5IndexVyxGAH_SitF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferView07MutableaB0V5start5count9dependsOnACyxGAA0aB5IndexVyxG_Siqd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V5startAA0aB5IndexVyxGvg" to i8*), i8* bitcast ({ i32 }* @"$s10BufferView07MutableaB0V5startAA0aB5IndexVyxGvpMV" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6offsetxSi_tciM" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6offsetxSi_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6offsetxSi_tcis" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6prefix4upToACyxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6prefixyACyxGSiF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6suffix4fromACyxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6suffixyACyxGSiF" to i8*), i8* bitcast (i8* (%swift.opaque*, i8*, i64, %swift.type*, %swift.type*, i8**)* @"$s10BufferView07MutableaB0V6update14fromContentsOfAA0aB5IndexVyxGqd___t7ElementQyd__RszSlRd__lF" to i8*), i8* bitcast (i8* (%swift.opaque*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, i8**)* @"$s10BufferView07MutableaB0V6update4from8IteratorQyd__9unwritten_AA0aB5IndexVyxG5indextqd___t7ElementQyd__RszSTRd__lF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V6update9repeatingyx_tF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V7indicesSnyAA0aB5IndexVyxGGvg" to i8*), i8* bitcast (i1 (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V7isEmptySbvg" to i8*), i8* bitcast (i64 (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V8distance4from2toSiAA0aB5IndexVyxG_AItF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V8dropLastyACyxGSiF" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V8endIndexAA0abE0VyxGvg" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9dropFirstyACyxGSiF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9formIndex5afteryAA0abE0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9formIndex6beforeyAA0abE0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9formIndex_8offsetByyAA0abE0VyxGz_SitF" to i8*), i8* bitcast ({ i8*, %T10BufferView07MutableaB0V* } (i8*, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedACyxGSnyAA0aB5IndexVyxGG_tciM" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedACyxGSnyAA0aB5IndexVyxGG_tcig" to i8*), i8* bitcast (void (i8*, i64, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedACyxGSnyAA0aB5IndexVyxGG_tcis" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxAA0aB5IndexVyxG_tciM" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxAA0aB5IndexVyxG_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxAA0aB5IndexVyxG_tcis" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxSi_tciM" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxSi_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0V9uncheckedxSi_tcis" to i8*), i8* bitcast (i1 (i8*, i64, i8*, i64, %swift.type*, i8**)* @"$s10BufferView07MutableaB0VAASQRzlE13elementsEqualySbACyxGF" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView07MutableaB0VHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferView07MutableaB0VMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView07MutableaB0VMn" to i8*), i8* bitcast ({ i8*, %T10BufferView07MutableaB0V* } (i8*, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyACyxGSnyAA0aB5IndexVyxGGciM" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyACyxGSnyAA0aB5IndexVyxGGcig" to i8*), i8* bitcast (void (i8*, i64, i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyACyxGSnyAA0aB5IndexVyxGGcis" to i8*), i8* bitcast ({ i8*, %swift.opaque* } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyxAA0aB5IndexVyxGciM" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyxAA0aB5IndexVyxGcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferView07MutableaB0VyxAA0aB5IndexVyxGcis" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSKAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSKAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSKAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSMAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSMAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSMAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSTAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSTAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSTAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSkAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSkAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSkAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView07MutableaB0VyxGSlAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSlAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSlAAMc" to i8*), i8* bitcast (i64 (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V10storeBytes2of12toByteOffset2asSix_SixmtlF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64)* @"$s10BufferView09OutputRawA0V11baseAddress5countACSv_SitcfC" to i8*), i8* bitcast (i8* (i8*, i64)* @"$s10BufferView09OutputRawA0V11baseAddressSvvg" to i8*), i8* bitcast (i1 (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V14hasPrefixRangeySbAA07MutableaB0VyxGlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, %swift.opaque*, i8*, i64, %swift.type*, i8**)* @"$s10BufferView09OutputRawA0V16initializeMemory2as14fromContentsOfAA07MutableaB0Vy7ElementQzGAJm_xtSlRzlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.opaque*, %swift.type*, %swift.opaque*, i8*, i64, %swift.type*, i8**)* @"$s10BufferView09OutputRawA0V16initializeMemory2as4from8IteratorQz9unwritten_AA07MutableaB0Vy7ElementQzG11initializedtAMm_xtSTRzlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, %swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V16initializeMemory2as9repeatingAA07MutableaB0VyxGxm_xtlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, i64, i64, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V20moveInitializeMemory2as14fromContentsOfAA07MutableaB0VyxGxm_SryxGtlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, i64, i64, i64, i64, i8*, i64, %swift.type*)* @"$s10BufferView09OutputRawA0V20moveInitializeMemory2as14fromContentsOfAA07MutableaB0VyxGxm_s5SliceVySryxGGtlF" to i8*), i8* bitcast ({ i8*, i64 } (%swift.type*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferView09OutputRawA0V24withUnsafeMutablePointer2as_AA0gaB0VyxGxm_SiSpyxG_SitKXEtKlF" to i8*), i8* bitcast (i64 (i8*, i64)* @"$s10BufferView09OutputRawA0V5countSivg" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView09OutputRawA0VHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView09OutputRawA0VMF" to i8*), i8* bitcast (%swift.metadata_response (i64)* @"$s10BufferView09OutputRawA0VMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32 }>* @"$s10BufferView09OutputRawA0VMn" to i8*), i8* bitcast (%swift.type* @"$s10BufferView09OutputRawA0VN" to i8*), i8* bitcast (i1 (i8*, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV1loiySbACyxG_AEtFZ" to i8*), i8* bitcast (void (%Ts6HasherV*, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV4hash4intoys6HasherVz_tF" to i8*), i8* bitcast (i8* (i64, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV8advanced2byACyxGSi_tF" to i8*), i8* bitcast (i64 (i8*, i8*, %swift.type*)* @"$s10BufferView0aB5IndexV8distance2toSiACyxG_tF" to i8*), i8* bitcast (i8* (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV8rawValueACyxGSV_tcfC" to i8*), i8* bitcast (i8* (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV9_rawValueSVvg" to i8*), i8* bitcast (i64 (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV9hashValueSivg" to i8*), i8* bitcast (i1 (i8*, %swift.type*)* @"$s10BufferView0aB5IndexV9isAlignedSbvg" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView0aB5IndexVHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32 }* @"$s10BufferView0aB5IndexVMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferView0aB5IndexVMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView0aB5IndexVMn" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSHAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSHAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSLAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSLAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSQAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSQAAMc" to i8*), i8* bitcast (i32* @"$s10BufferView0aB5IndexVyxGSxAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSxAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSxAAMc" to i8*), i8* bitcast (void (%swift.opaque*, %swift.type*, %T10BufferView0aB8IteratorV*)* @"$s10BufferView0aB8IteratorV4nextxSgyF" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferView0aB8IteratorVHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferView0aB8IteratorVMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferView0aB8IteratorVMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView0aB8IteratorVMn" to i8*), i8* bitcast (i32* @"$s10BufferView0aB8IteratorVyxGStAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32 }* @"$s10BufferView0aB8IteratorVyxGStAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB8IteratorVyxGStAAMc" to i8*), i8* bitcast (i64 (i8*, i64)* @"$s10BufferView15bufferviewtest1ySiA2AVySiGF" to i8*), i8* bitcast (i64 (i8*, i64, i64)* @"$s10BufferView15bufferviewtest2ySiA2AVySiG_SitF" to i8*), i8* bitcast (i64 (i8*, i64)* @"$s10BufferView15bufferviewtest3ySiA2AVySiGF" to i8*), i8* bitcast (i1 (i8*, i64, i8*)* @"$s10BufferView15bufferviewtest4ySbA2AVySiG_AA0aB5IndexVySiGtF" to i8*), i8* bitcast (i64 (i8*, i64, i8*)* @"$s10BufferView15bufferviewtest5ySiA2AVySiG_AA0aB5IndexVySiGtF" to i8*), i8* bitcast (void (i8*, i64, i8*, i64)* @"$s10BufferView15bufferviewtest6yyAA07MutableaB0VySiG_AEtF" to i8*), i8* bitcast (void (i8*, i64)* @"$s10BufferView15bufferviewtest7yyAA07MutableaB0VySiGF" to i8*), i8* bitcast (i64 (i8*, i64, i64)* @"$s10BufferView16bufferviewtest2bySiA2AVySiG_SitF" to i8*), i8* bitcast (i64 (i8*, i64, i64)* @"$s10BufferView16bufferviewtest2cySiA2AVySiG_SitF" to i8*), i8* bitcast (void (%swift.opaque*, %swift.type*)* @"$s10BufferView9blackholeyyxzlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV010withUnsafeA7Pointeryqd__qd__SRyxGKXEKlF" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV06unsafeA7Pointer9dependsOnAByxGSgSRyxG_qd__tclufC" to i8*), i8* bitcast ({ i64, i64 } (i64, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV09unsafeRawA7Pointer9dependsOnAByxGSgSW_qd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferViewAAV10startIndexAA0abD0VyxGvg" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV11baseAddress5count9dependsOnAByxGSV_Siqd__tclufC" to i8*), i8* bitcast (void (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV12_checkBoundsyyAA0aB5IndexVyxGF" to i8*), i8* bitcast (void (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV12_checkBoundsyySnyAA0aB5IndexVyxGGF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferViewAAV12makeIteratorAA0abD0VyxGyF" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV13loadUnaligned14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV13loadUnaligned4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV15uncheckedOffsetxSi_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV15withUnsafeBytesyqd__qd__SWKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV17withUnsafePointeryqd__qd__SPyxG_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV20withUnsafeRawPointeryqd__qd__SV_SitKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.opaque*, i8*, i64, %swift.type*, %swift.type*, %swift.refcounted*, %swift.error**)* @"$s10BufferViewAAV32withContiguousStorageIfAvailableyqd__Sgqd__SRyxGKXEKlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV4lastxSgvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV4load14fromByteOffset2asqd__Si_qd__mtlF" to i8*), i8* bitcast (void (%swift.opaque*, i8*, %swift.type*, i8*, i64, %swift.type*, %swift.type*)* @"$s10BufferViewAAV4load4from2asqd__AA0aB5IndexVyxG_qd__mtlF" to i8*), i8* bitcast (i64 (i8*, i64, %swift.type*)* @"$s10BufferViewAAV5countSivg" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5firstxSgvg" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5index5afterAA0aB5IndexVyxGAG_tF" to i8*), i8* bitcast (i8* (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5index6beforeAA0aB5IndexVyxGAG_tF" to i8*), i8* bitcast (i8* (i8*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV5index_8offsetByAA0aB5IndexVyxGAG_SitF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.opaque*, %swift.type*, %swift.type*)* @"$s10BufferViewAAV5start5count9dependsOnAByxGAA0aB5IndexVyxG_Siqd__tclufC" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferViewAAV5startAA0aB5IndexVyxGvg" to i8*), i8* bitcast (void (%swift.opaque*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6offsetxSi_tcig" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6prefix4upToAByxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6prefixyAByxGSiF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6suffix4fromAByxGAA0aB5IndexVyxG_tF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV6suffixyAByxGSiF" to i8*), i8* bitcast ({ i8*, i8* } (i8*, i64, %swift.type*)* @"$s10BufferViewAAV7indicesSnyAA0aB5IndexVyxGGvg" to i8*), i8* bitcast (i1 (i8*, i64, %swift.type*)* @"$s10BufferViewAAV7isEmptySbvg" to i8*), i8* bitcast (i64 (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV8distance4from2toSiAA0aB5IndexVyxG_AHtF" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV8dropLastyAByxGSiF" to i8*), i8* bitcast (i8* (i8*, i64, %swift.type*)* @"$s10BufferViewAAV8endIndexAA0abD0VyxGvg" to i8*), i8* bitcast ({ i8*, i64 } (i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9dropFirstyAByxGSiF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9formIndex5afteryAA0abD0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9formIndex6beforeyAA0abD0VyxGz_tF" to i8*), i8* bitcast (void (%T10BufferView0aB5IndexV*, i64, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9formIndex_8offsetByyAA0abD0VyxGz_SitF" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9uncheckedAByxGSnyAA0aB5IndexVyxGG_tcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAV9uncheckedxAA0aB5IndexVyxG_tcig" to i8*), i8* bitcast (i1 (i8*, i64, i8*, i64, %swift.type*, i8**)* @"$s10BufferViewAAVAASQRzlE13elementsEqualySbAByxGF" to i8*), i8* bitcast (%swift.type_metadata_record* @"$s10BufferViewAAVHn" to i8*), i8* bitcast ({ i32, i32, i16, i16, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVMF" to i8*), i8* bitcast (%swift.metadata_response (i64, %swift.type*)* @"$s10BufferViewAAVMa" to i8*), i8* bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferViewAAVMn" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i64, %swift.type*)* @"$s10BufferViewAAVyAByxGAA07MutableaB0VyxGcfC" to i8*), i8* bitcast ({ i8*, i64 } (i8*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAVyAByxGSnyAA0aB5IndexVyxGGcig" to i8*), i8* bitcast (void (%swift.opaque*, i8*, i8*, i64, %swift.type*)* @"$s10BufferViewAAVyxAA0aB5IndexVyxGcig" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSKAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSKAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSKAAMc" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSTAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSTAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSTAAMc" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSkAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSkAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSkAAMc" to i8*), i8* bitcast (i32* @"$s10BufferViewAAVyxGSlAAHc" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32 }* @"$s10BufferViewAAVyxGSlAAMA" to i8*), i8* bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSlAAMc" to i8*), i8* bitcast (i16* @__swift_reflection_version to i8*)], section "llvm.metadata"
 
 @"$s10BufferView07MutableaB0V5countSivpMV" = alias { i32 }, { i32 }* @"$s10BufferView07MutableaB0V5startAA0aB5IndexVyxGvpMV"
 @"$s10BufferView07MutableaB0V10startIndexAA0abE0VyxGvpMV" = alias { i32 }, { i32 }* @"$s10BufferView07MutableaB0V5startAA0aB5IndexVyxGvpMV"
@@ -613,7 +613,7 @@ common.ret:                                       ; preds = %entry, %14
   %17 = getelementptr inbounds i8*, i8** %R.valueWitnesses, i64 7
   %18 = bitcast i8** %17 to void (%swift.opaque*, i32, i32, %swift.type*)**
   %19 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %18, align 8, !invariant.load !17
-  tail call void %19(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* %R) #24
+  tail call void %19(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* %R) #25
   br label %common.ret
 }
 
@@ -867,12 +867,12 @@ entry:
   %100 = getelementptr inbounds i8, i8* %28, i64 %99
   %.elt = bitcast i8* %100 to %swift.opaque*
   %101 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %82, align 8, !invariant.load !17
-  %102 = call %swift.opaque* %101(%swift.opaque* noalias nonnull %20, %swift.opaque* noalias nonnull %80, %swift.type* %Element) #24
-  %103 = call %swift.opaque* %101(%swift.opaque* noalias nonnull %18, %swift.opaque* noalias nonnull %.elt, %swift.type* %Element) #24
+  %102 = call %swift.opaque* %101(%swift.opaque* noalias nonnull %20, %swift.opaque* noalias nonnull %80, %swift.type* %Element) #25
+  %103 = call %swift.opaque* %101(%swift.opaque* noalias nonnull %18, %swift.opaque* noalias nonnull %.elt, %swift.type* %Element) #25
   %104 = call swiftcc i1 @"$sSQ2eeoiySbx_xtFZTj"(%swift.opaque* noalias nocapture nonnull %20, %swift.opaque* noalias nocapture nonnull %18, %swift.type* swiftself %Element, %swift.type* %Element, i8** %Element.Equatable)
   %105 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %84, align 8, !invariant.load !17
-  call void %105(%swift.opaque* noalias nonnull %18, %swift.type* %Element) #24
-  call void %105(%swift.opaque* noalias nonnull %20, %swift.type* %Element) #24
+  call void %105(%swift.opaque* noalias nonnull %18, %swift.type* %Element) #25
+  call void %105(%swift.opaque* noalias nonnull %20, %swift.type* %Element) #25
   br i1 %104, label %85, label %106
 
 106:                                              ; preds = %96
@@ -990,32 +990,32 @@ entry:
   ret void
 
 39:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 40:                                               ; preds = %13
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 41:                                               ; preds = %25
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 42:                                               ; preds = %34
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 43:                                               ; preds = %19
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 44:                                               ; preds = %10
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -1112,42 +1112,42 @@ entry:
   ret void
 
 51:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 52:                                               ; preds = %14
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 53:                                               ; preds = %24
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 54:                                               ; preds = %36
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 55:                                               ; preds = %45
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 56:                                               ; preds = %30
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 57:                                               ; preds = %20
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 58:                                               ; preds = %11
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -1269,17 +1269,17 @@ entry:
   ret i64 %13
 
 16:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 17:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 18:                                               ; preds = %9
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -1360,32 +1360,32 @@ entry:
   ret void
 
 42:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 43:                                               ; preds = %14
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 44:                                               ; preds = %26
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 45:                                               ; preds = %35
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 46:                                               ; preds = %20
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 47:                                               ; preds = %11
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -1476,32 +1476,32 @@ coro.return:                                      ; preds = %37, %34
   ret { i8*, %swift.opaque* } %45
 
 46:                                               ; preds = %PostSpill
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 47:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 48:                                               ; preds = %28
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 49:                                               ; preds = %37
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 50:                                               ; preds = %22
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 51:                                               ; preds = %13
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -1596,40 +1596,40 @@ entry:
   %43 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 3
   %44 = bitcast i8** %43 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %45 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %44, align 8, !invariant.load !17
-  %46 = tail call %swift.opaque* %45(%swift.opaque* %42, %swift.opaque* %0, %swift.type* nonnull %Element) #24
+  %46 = tail call %swift.opaque* %45(%swift.opaque* %42, %swift.opaque* %0, %swift.type* nonnull %Element) #25
   %47 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 1
   %48 = bitcast i8** %47 to void (%swift.opaque*, %swift.type*)**
   %49 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %48, align 8, !invariant.load !17
-  tail call void %49(%swift.opaque* noalias %0, %swift.type* nonnull %Element) #24
+  tail call void %49(%swift.opaque* noalias %0, %swift.type* nonnull %Element) #25
   ret void
 
 50:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 51:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 52:                                               ; preds = %27
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 53:                                               ; preds = %37
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 54:                                               ; preds = %21
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 55:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -1698,22 +1698,22 @@ entry:
   %38 = getelementptr inbounds i8*, i8** %T.valueWitnesses, i64 4
   %39 = bitcast i8** %38 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %40 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %39, align 8, !invariant.load !17
-  %41 = call %swift.opaque* %40(%swift.opaque* noalias nonnull %11, %swift.opaque* noalias nonnull %9, %swift.type* nonnull %T) #24
+  %41 = call %swift.opaque* %40(%swift.opaque* noalias nonnull %11, %swift.opaque* noalias nonnull %9, %swift.type* nonnull %T) #25
   call void @llvm.stackrestore(i8* %spsave)
-  %42 = call %swift.opaque* %40(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %11, %swift.type* nonnull %T) #24
+  %42 = call %swift.opaque* %40(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %11, %swift.type* nonnull %T) #25
   br label %52
 
 43:                                               ; preds = %23, %29
   %44 = phi i64 [ %20, %23 ], [ 0, %29 ]
   %45 = add nsw i64 %44, -1
-  %46 = tail call noalias i8* @swift_slowAlloc(i64 %stride, i64 %45) #24
+  %46 = tail call noalias i8* @swift_slowAlloc(i64 %stride, i64 %45) #25
   %47 = ptrtoint i8* %46 to i64
   %48 = tail call swiftcc { i64, i64 } @"$sSr5start5countSryxGSpyxGSg_SitcfC"(i64 %47, i64 1, %swift.type* nonnull %T), !noalias !33
   %49 = extractvalue { i64, i64 } %48, 0
   %50 = extractvalue { i64, i64 } %48, 1
   %51 = bitcast [40 x i8]* %12 to %swift.refcounted*
   call swiftcc void @"$sSV13loadUnaligned14fromByteOffset2asxSi_xmtlFxSryxGXEfU_TA"(%swift.opaque* noalias nocapture sret(%swift.opaque) %0, i64 %49, i64 %50, %swift.refcounted* nonnull swiftself %51, %swift.error** noalias nocapture nonnull swifterror dereferenceable(8) %swifterror)
-  tail call void @swift_slowDealloc(i8* %46, i64 -1, i64 -1) #24
+  tail call void @swift_slowDealloc(i8* %46, i64 -1, i64 -1) #25
   br label %52
 
 52:                                               ; preds = %43, %31
@@ -1722,7 +1722,7 @@ entry:
   ret void
 
 53:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -1738,11 +1738,11 @@ entry:
   %7 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 3
   %8 = bitcast i8** %7 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %9 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %8, align 8, !invariant.load !17
-  %10 = tail call %swift.opaque* %9(%swift.opaque* %4, %swift.opaque* %0, %swift.type* %Element) #24
+  %10 = tail call %swift.opaque* %9(%swift.opaque* %4, %swift.opaque* %0, %swift.type* %Element) #25
   %11 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 1
   %12 = bitcast i8** %11 to void (%swift.opaque*, %swift.type*)**
   %13 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %12, align 8, !invariant.load !17
-  tail call void %13(%swift.opaque* noalias %0, %swift.type* %Element) #24
+  tail call void %13(%swift.opaque* noalias %0, %swift.type* %Element) #25
   ret void
 }
 
@@ -1868,42 +1868,42 @@ entry:
   ret { i8*, i64 } %70
 
 71:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 72:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 73:                                               ; preds = %26
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 74:                                               ; preds = %38
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 75:                                               ; preds = %47
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 76:                                               ; preds = %32
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 77:                                               ; preds = %22
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 78:                                               ; preds = %13
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -2042,47 +2042,47 @@ entry:
   ret void
 
 72:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 73:                                               ; preds = %18
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 74:                                               ; preds = %28
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 75:                                               ; preds = %40
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 76:                                               ; preds = %49
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 77:                                               ; preds = %54
-  call void asm sideeffect "", "n"(i32 6) #24
+  call void asm sideeffect "", "n"(i32 6) #25
   call void @llvm.trap()
   unreachable
 
 78:                                               ; preds = %34
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 79:                                               ; preds = %24
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 80:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -2265,42 +2265,42 @@ coro.return:                                      ; preds = %50, %47
   ret { i8*, %T10BufferView07MutableaB0V* } %76
 
 77:                                               ; preds = %PostSpill
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 78:                                               ; preds = %19
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 79:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 80:                                               ; preds = %41
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 81:                                               ; preds = %50
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 82:                                               ; preds = %35
-  tail call void asm sideeffect "", "n"(i32 18) #24
+  tail call void asm sideeffect "", "n"(i32 18) #25
   tail call void @llvm.trap()
   unreachable
 
 83:                                               ; preds = %25
-  tail call void asm sideeffect "", "n"(i32 19) #24
+  tail call void asm sideeffect "", "n"(i32 19) #25
   tail call void @llvm.trap()
   unreachable
 
 84:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 20) #24
+  tail call void asm sideeffect "", "n"(i32 20) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -2436,22 +2436,22 @@ CoroEnd:                                          ; preds = %21, %37
   ret void
 
 42:                                               ; preds = %27
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 43:                                               ; preds = %._crit_edge3
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 44:                                               ; preds = %11
-  tail call void asm sideeffect "", "n"(i32 13) #24
+  tail call void asm sideeffect "", "n"(i32 13) #25
   tail call void @llvm.trap()
   unreachable
 
 45:                                               ; preds = %._crit_edge
-  tail call void asm sideeffect "", "n"(i32 14) #24
+  tail call void asm sideeffect "", "n"(i32 14) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -2619,7 +2619,7 @@ common.ret:                                       ; preds = %23, %17
   %20 = getelementptr inbounds i8*, i8** %R.valueWitnesses, i64 7
   %21 = bitcast i8** %20 to void (%swift.opaque*, i32, i32, %swift.type*)**
   %22 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %21, align 8, !invariant.load !17
-  tail call void %22(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* %R) #24
+  tail call void %22(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* %R) #25
   br label %common.ret
 
 23:                                               ; preds = %entry
@@ -2683,7 +2683,7 @@ entry:
   ret void
 
 30:                                               ; preds = %entry
-  call void asm sideeffect "", "n"(i32 0) #24
+  call void asm sideeffect "", "n"(i32 0) #25
   call void @llvm.trap()
   unreachable
 }
@@ -2805,32 +2805,32 @@ coro.return:                                      ; preds = %47, %52
   ret { i8*, %swift.opaque* } %53
 
 54:                                               ; preds = %PostSpill
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 55:                                               ; preds = %25
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 56:                                               ; preds = %37
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 57:                                               ; preds = %48
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 58:                                               ; preds = %31
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 59:                                               ; preds = %22
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -2977,42 +2977,42 @@ entry:
   ret void
 
 76:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 77:                                               ; preds = %21
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 78:                                               ; preds = %31
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 79:                                               ; preds = %43
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 80:                                               ; preds = %52
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 81:                                               ; preds = %37
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 82:                                               ; preds = %27
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 83:                                               ; preds = %18
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -3203,40 +3203,40 @@ entry:
   %47 = getelementptr inbounds i8*, i8** %"\CF\84_0_0.valueWitnesses", i64 3
   %48 = bitcast i8** %47 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %49 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %48, align 8, !invariant.load !17
-  %50 = tail call %swift.opaque* %49(%swift.opaque* %46, %swift.opaque* %0, %swift.type* nonnull %"\CF\84_0_0") #24
+  %50 = tail call %swift.opaque* %49(%swift.opaque* %46, %swift.opaque* %0, %swift.type* nonnull %"\CF\84_0_0") #25
   %51 = getelementptr inbounds i8*, i8** %"\CF\84_0_0.valueWitnesses", i64 1
   %52 = bitcast i8** %51 to void (%swift.opaque*, %swift.type*)**
   %53 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %52, align 8, !invariant.load !17
-  tail call void %53(%swift.opaque* noalias %0, %swift.type* nonnull %"\CF\84_0_0") #24
+  tail call void %53(%swift.opaque* noalias %0, %swift.type* nonnull %"\CF\84_0_0") #25
   ret void
 
 54:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 55:                                               ; preds = %19
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 56:                                               ; preds = %31
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 57:                                               ; preds = %41
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 58:                                               ; preds = %25
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 59:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -3331,32 +3331,32 @@ coro.return:                                      ; preds = %41, %38
   ret { i8*, %swift.opaque* } %49
 
 50:                                               ; preds = %PostSpill
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 51:                                               ; preds = %20
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 52:                                               ; preds = %32
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 53:                                               ; preds = %41
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 54:                                               ; preds = %26
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 55:                                               ; preds = %17
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -3525,47 +3525,47 @@ entry:
   ret void
 
 84:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 85:                                               ; preds = %23
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 86:                                               ; preds = %33
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 87:                                               ; preds = %45
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 88:                                               ; preds = %54
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 89:                                               ; preds = %59
-  call void asm sideeffect "", "n"(i32 6) #24
+  call void asm sideeffect "", "n"(i32 6) #25
   call void @llvm.trap()
   unreachable
 
 90:                                               ; preds = %39
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 91:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 92:                                               ; preds = %20
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -3726,42 +3726,42 @@ coro.return:                                      ; preds = %54, %51
   ret { i8*, %T10BufferView07MutableaB0V* } %78
 
 79:                                               ; preds = %PostSpill
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 80:                                               ; preds = %23
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 81:                                               ; preds = %33
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 82:                                               ; preds = %45
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 83:                                               ; preds = %54
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 84:                                               ; preds = %39
-  tail call void asm sideeffect "", "n"(i32 18) #24
+  tail call void asm sideeffect "", "n"(i32 18) #25
   tail call void @llvm.trap()
   unreachable
 
 85:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 19) #24
+  tail call void asm sideeffect "", "n"(i32 19) #25
   tail call void @llvm.trap()
   unreachable
 
 86:                                               ; preds = %20
-  tail call void asm sideeffect "", "n"(i32 20) #24
+  tail call void asm sideeffect "", "n"(i32 20) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -3934,22 +3934,22 @@ CoroEnd:                                          ; preds = %22, %45
   ret void
 
 57:                                               ; preds = %35
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 58:                                               ; preds = %._crit_edge3
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 59:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 13) #24
+  tail call void asm sideeffect "", "n"(i32 13) #25
   tail call void @llvm.trap()
   unreachable
 
 60:                                               ; preds = %._crit_edge
-  tail call void asm sideeffect "", "n"(i32 14) #24
+  tail call void asm sideeffect "", "n"(i32 14) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -4093,17 +4093,17 @@ entry:
   unreachable
 
 20:                                               ; preds = %8
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 21:                                               ; preds = %10
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 22:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -4166,7 +4166,7 @@ entry:
   %30 = getelementptr inbounds i8*, i8** %S.valueWitnesses, i64 2
   %31 = bitcast i8** %30 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %32 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %31, align 8, !invariant.load !17
-  %33 = call %swift.opaque* %32(%swift.opaque* noalias nonnull %22, %swift.opaque* noalias %1, %swift.type* %S) #24
+  %33 = call %swift.opaque* %32(%swift.opaque* noalias nonnull %22, %swift.opaque* noalias %1, %swift.type* %S) #25
   call swiftcc void @"$sST12makeIterator0B0QzyFTj"(%swift.opaque* noalias nocapture nonnull sret(%swift.opaque) %29, %swift.opaque* noalias nocapture nonnull swiftself %22, %swift.type* %S, i8** %S.Sequence)
   %34 = icmp eq i64 %3, 0
   br i1 %34, label %72, label %35
@@ -4203,12 +4203,12 @@ entry:
 
 54:                                               ; preds = %50
   %55 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %45, align 8, !invariant.load !17
-  %56 = call %swift.opaque* %55(%swift.opaque* noalias nonnull %16, %swift.opaque* noalias nonnull %41, %swift.type* %Element) #24
+  %56 = call %swift.opaque* %55(%swift.opaque* noalias nonnull %16, %swift.opaque* noalias nonnull %41, %swift.type* %Element) #25
   %57 = bitcast i8* %51 to %swift.opaque*
   %58 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %47, align 8, !invariant.load !17
-  %59 = call %swift.opaque* %58(%swift.opaque* %57, %swift.opaque* nonnull %16, %swift.type* %Element) #24
+  %59 = call %swift.opaque* %58(%swift.opaque* %57, %swift.opaque* nonnull %16, %swift.type* %Element) #25
   %60 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %49, align 8, !invariant.load !17
-  call void %60(%swift.opaque* noalias nonnull %16, %swift.type* %Element) #24
+  call void %60(%swift.opaque* noalias nonnull %16, %swift.type* %Element) #25
   %61 = getelementptr inbounds i8, i8* %51, i64 %stride
   %62 = icmp ult i8* %61, %39
   br i1 %62, label %50, label %.loopexit
@@ -4217,7 +4217,7 @@ entry:
   %64 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %65 = bitcast i8** %64 to void (%swift.opaque*, %swift.type*)**
   %66 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %65, align 8, !invariant.load !17
-  call void %66(%swift.opaque* noalias nonnull %41, %swift.type* %5) #24
+  call void %66(%swift.opaque* noalias nonnull %41, %swift.type* %5) #25
   br label %.loopexit
 
 .loopexit:                                        ; preds = %54, %35, %63
@@ -4225,14 +4225,14 @@ entry:
   %68 = getelementptr inbounds i8*, i8** %S.Iterator.valueWitnesses, i64 4
   %69 = bitcast i8** %68 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %70 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %69, align 8, !invariant.load !17
-  %71 = call %swift.opaque* %70(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %29, %swift.type* %S.Iterator) #24
+  %71 = call %swift.opaque* %70(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %29, %swift.type* %S.Iterator) #25
   br label %77
 
 72:                                               ; preds = %entry
   %73 = getelementptr inbounds i8*, i8** %S.Iterator.valueWitnesses, i64 4
   %74 = bitcast i8** %73 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %75 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %74, align 8, !invariant.load !17
-  %76 = call %swift.opaque* %75(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %29, %swift.type* nonnull %S.Iterator) #24
+  %76 = call %swift.opaque* %75(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %29, %swift.type* nonnull %S.Iterator) #25
   br label %77
 
 77:                                               ; preds = %72, %.loopexit
@@ -4340,7 +4340,7 @@ entry:
   %57 = getelementptr inbounds i8*, i8** %"some Collection<Element>.valueWitnesses", i64 2
   %58 = bitcast i8** %57 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %59 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %58, align 8, !invariant.load !17
-  %60 = call %swift.opaque* %59(%swift.opaque* noalias nonnull %32, %swift.opaque* noalias %0, %swift.type* nonnull %"some Collection<Element>") #24
+  %60 = call %swift.opaque* %59(%swift.opaque* noalias nonnull %32, %swift.opaque* noalias %0, %swift.type* nonnull %"some Collection<Element>") #25
   br i1 %56, label %61, label %67
 
 61:                                               ; preds = %55
@@ -4351,7 +4351,7 @@ entry:
   %64 = getelementptr inbounds i8*, i8** %"some Collection<Element>.valueWitnesses", i64 1
   %65 = bitcast i8** %64 to void (%swift.opaque*, %swift.type*)**
   %66 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %65, align 8, !invariant.load !17
-  call void %66(%swift.opaque* noalias nonnull %32, %swift.type* nonnull %"some Collection<Element>") #24
+  call void %66(%swift.opaque* noalias nonnull %32, %swift.type* nonnull %"some Collection<Element>") #25
   br label %100
 
 67:                                               ; preds = %55
@@ -4383,16 +4383,16 @@ entry:
   %82 = getelementptr inbounds i8*, i8** %"(some Collection<Element>).Iterator.valueWitnesses", i64 1
   %83 = bitcast i8** %82 to void (%swift.opaque*, %swift.type*)**
   %84 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %83, align 8, !invariant.load !17
-  call void %84(%swift.opaque* noalias nonnull %26, %swift.type* %"(some Collection<Element>).Iterator") #24
+  call void %84(%swift.opaque* noalias nonnull %26, %swift.type* %"(some Collection<Element>).Iterator") #25
   %85 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %86 = bitcast i8** %85 to void (%swift.opaque*, %swift.type*)**
   %87 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %86, align 8, !invariant.load !17
-  call void %87(%swift.opaque* noalias nonnull %68, %swift.type* %5) #24
+  call void %87(%swift.opaque* noalias nonnull %68, %swift.type* %5) #25
   br label %100
 
 88:                                               ; preds = %.lr.ph, %93
   %89 = phi i8* [ %1, %.lr.ph ], [ %98, %93 ]
-  %90 = call %swift.opaque* %75(%swift.opaque* noalias nonnull %16, %swift.opaque* noalias nonnull %68, %swift.type* %Element) #24
+  %90 = call %swift.opaque* %75(%swift.opaque* noalias nonnull %16, %swift.opaque* noalias nonnull %68, %swift.type* %Element) #25
   %stride = load i64, i64* %77, align 8, !invariant.load !17
   %91 = mul i64 %stride, %2
   %92 = getelementptr inbounds i8, i8* %1, i64 %91
@@ -4402,9 +4402,9 @@ entry:
 93:                                               ; preds = %88
   %94 = bitcast i8* %89 to %swift.opaque*
   %95 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %79, align 8, !invariant.load !17
-  %96 = call %swift.opaque* %95(%swift.opaque* %94, %swift.opaque* nonnull %16, %swift.type* %Element) #24
+  %96 = call %swift.opaque* %95(%swift.opaque* %94, %swift.opaque* nonnull %16, %swift.type* %Element) #25
   %97 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %81, align 8, !invariant.load !17
-  call void %97(%swift.opaque* noalias nonnull %16, %swift.type* %Element) #24
+  call void %97(%swift.opaque* noalias nonnull %16, %swift.type* %Element) #25
   %98 = getelementptr inbounds i8, i8* %89, i64 %stride
   call swiftcc void @"$sSt4next7ElementQzSgyFTj"(%swift.opaque* noalias nocapture nonnull sret(%swift.opaque) %68, %swift.opaque* nocapture nonnull swiftself %26, %swift.type* %"(some Collection<Element>).Iterator", i8** %"(some Collection<Element>).Iterator.IteratorProtocol")
   %99 = call i32 %71(%swift.opaque* noalias nonnull %68, i32 1, %swift.type* %Element) #32
@@ -4420,12 +4420,12 @@ entry:
   ret i8* %101
 
 102:                                              ; preds = %88
-  call void asm sideeffect "", "n"(i32 0) #24
+  call void asm sideeffect "", "n"(i32 0) #25
   call void @llvm.trap()
   unreachable
 
 103:                                              ; preds = %61
-  call void asm sideeffect "", "n"(i32 1) #24
+  call void asm sideeffect "", "n"(i32 1) #25
   call void @llvm.trap()
   unreachable
 }
@@ -4464,7 +4464,7 @@ entry:
   br i1 %13, label %14, label %"$s10BufferView07MutableaB0V20withUnsafeRawPointeryqd__qd__SV_SitKXEKlF.exit", !prof !26
 
 14:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24, !noalias !48
+  tail call void asm sideeffect "", "n"(i32 0) #25, !noalias !48
   tail call void @llvm.trap(), !noalias !48
   unreachable
 
@@ -4587,22 +4587,22 @@ entry:
   unreachable
 
 50:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 51:                                               ; preds = %21
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 52:                                               ; preds = %36
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 53:                                               ; preds = %41
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -4733,22 +4733,22 @@ entry:
   unreachable
 
 53:                                               ; preds = %17
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 54:                                               ; preds = %24
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 55:                                               ; preds = %39
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 56:                                               ; preds = %44
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -4803,22 +4803,22 @@ entry:
   ret void
 
 26:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 27:                                               ; preds = %18
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 28:                                               ; preds = %21
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 29:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -4965,37 +4965,37 @@ entry:
   unreachable
 
 78:                                               ; preds = %18
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 79:                                               ; preds = %42
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 80:                                               ; preds = %52
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 81:                                               ; preds = %64
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 82:                                               ; preds = %58
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 83:                                               ; preds = %48
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 84:                                               ; preds = %39
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -5039,22 +5039,22 @@ entry:
   ret void
 
 23:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 24:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 25:                                               ; preds = %18
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 26:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -5093,7 +5093,7 @@ coro.return:                                      ; preds = %PostSpill
   ret { i8*, %swift.opaque* } %13
 
 14:                                               ; preds = %PostSpill
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -5167,15 +5167,15 @@ entry:
   %15 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 3
   %16 = bitcast i8** %15 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %17 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %16, align 8, !invariant.load !17
-  %18 = tail call %swift.opaque* %17(%swift.opaque* %14, %swift.opaque* %0, %swift.type* %Element) #24
+  %18 = tail call %swift.opaque* %17(%swift.opaque* %14, %swift.opaque* %0, %swift.type* %Element) #25
   %19 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 1
   %20 = bitcast i8** %19 to void (%swift.opaque*, %swift.type*)**
   %21 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %20, align 8, !invariant.load !17
-  tail call void %21(%swift.opaque* noalias %0, %swift.type* %Element) #24
+  tail call void %21(%swift.opaque* noalias %0, %swift.type* %Element) #25
   ret void
 
 22:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -5194,11 +5194,11 @@ entry:
   %11 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 3
   %12 = bitcast i8** %11 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %13 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %12, align 8, !invariant.load !17
-  %14 = tail call %swift.opaque* %13(%swift.opaque* %10, %swift.opaque* %0, %swift.type* %Element) #24
+  %14 = tail call %swift.opaque* %13(%swift.opaque* %10, %swift.opaque* %0, %swift.type* %Element) #25
   %15 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 1
   %16 = bitcast i8** %15 to void (%swift.opaque*, %swift.type*)**
   %17 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %16, align 8, !invariant.load !17
-  tail call void %17(%swift.opaque* noalias %0, %swift.type* %Element) #24
+  tail call void %17(%swift.opaque* noalias %0, %swift.type* %Element) #25
   ret void
 }
 
@@ -5219,7 +5219,7 @@ entry:
   %7 = getelementptr inbounds i8*, i8** %Element.valueWitnesses1, i64 7
   %8 = bitcast i8** %7 to void (%swift.opaque*, i32, i32, %swift.type*)**
   %9 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %8, align 8, !invariant.load !17
-  tail call void %9(%swift.opaque* noalias %0, i32 1, i32 1, %swift.type* %Element) #24
+  tail call void %9(%swift.opaque* noalias %0, i32 1, i32 1, %swift.type* %Element) #25
   br label %20
 
 10:                                               ; preds = %entry
@@ -5242,7 +5242,7 @@ entry:
   %17 = getelementptr inbounds i8*, i8** %Element.valueWitnesses1, i64 7
   %18 = bitcast i8** %17 to void (%swift.opaque*, i32, i32, %swift.type*)**
   %19 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %18, align 8, !invariant.load !17
-  tail call void %19(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element) #24
+  tail call void %19(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element) #25
   br label %20
 
 20:                                               ; preds = %6, %16
@@ -5286,7 +5286,7 @@ entry:
   %7 = getelementptr inbounds i8*, i8** %Element.valueWitnesses1, i64 7
   %8 = bitcast i8** %7 to void (%swift.opaque*, i32, i32, %swift.type*)**
   %9 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %8, align 8, !invariant.load !17
-  tail call void %9(%swift.opaque* noalias %0, i32 1, i32 1, %swift.type* %Element) #24
+  tail call void %9(%swift.opaque* noalias %0, i32 1, i32 1, %swift.type* %Element) #25
   br label %27
 
 10:                                               ; preds = %entry
@@ -5318,7 +5318,7 @@ entry:
   %24 = getelementptr inbounds i8*, i8** %Element.valueWitnesses, i64 7
   %25 = bitcast i8** %24 to void (%swift.opaque*, i32, i32, %swift.type*)**
   %26 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %25, align 8, !invariant.load !17
-  tail call void %26(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element) #24
+  tail call void %26(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element) #25
   br label %27
 
 27:                                               ; preds = %4, %23
@@ -5503,52 +5503,52 @@ entry:
   ret { i8*, i64 } %76
 
 77:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 78:                                               ; preds = %28
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 79:                                               ; preds = %38
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 80:                                               ; preds = %50
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 81:                                               ; preds = %59
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 82:                                               ; preds = %68
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 83:                                               ; preds = %64
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 84:                                               ; preds = %44
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 85:                                               ; preds = %34
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 
 86:                                               ; preds = %25
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -5695,52 +5695,52 @@ entry:
   ret { i8*, i64 } %76
 
 77:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 78:                                               ; preds = %30
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 79:                                               ; preds = %40
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 80:                                               ; preds = %50
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 81:                                               ; preds = %59
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 82:                                               ; preds = %68
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 83:                                               ; preds = %64
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 84:                                               ; preds = %46
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 85:                                               ; preds = %36
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 
 86:                                               ; preds = %27
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -5775,7 +5775,7 @@ entry:
   %9 = getelementptr inbounds i8*, i8** %Owner.valueWitnesses, i64 1
   %10 = bitcast i8** %9 to void (%swift.opaque*, %swift.type*)**
   %11 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %10, align 8, !invariant.load !17
-  tail call void %11(%swift.opaque* noalias %2, %swift.type* %4) #24
+  tail call void %11(%swift.opaque* noalias %2, %swift.type* %4) #25
   ret { i8*, i64 } %6
 }
 
@@ -5787,7 +5787,7 @@ entry:
   %7 = getelementptr inbounds i8*, i8** %Owner.valueWitnesses, i64 1
   %8 = bitcast i8** %7 to void (%swift.opaque*, %swift.type*)**
   %9 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %8, align 8, !invariant.load !17
-  tail call void %9(%swift.opaque* noalias %2, %swift.type* %4) #24
+  tail call void %9(%swift.opaque* noalias %2, %swift.type* %4) #25
   %10 = icmp slt i64 %1, 0
   br i1 %10, label %24, label %11, !prof !26
 
@@ -5815,12 +5815,12 @@ entry:
   ret { i8*, i64 } %23
 
 24:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 25:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -5857,7 +5857,7 @@ entry:
   %20 = getelementptr inbounds i8*, i8** %Owner.valueWitnesses, i64 1
   %21 = bitcast i8** %20 to void (%swift.opaque*, %swift.type*)**
   %22 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %21, align 8, !invariant.load !17
-  tail call void %22(%swift.opaque* noalias %2, %swift.type* %4) #24
+  tail call void %22(%swift.opaque* noalias %2, %swift.type* %4) #25
   %23 = insertvalue { i64, i64 } undef, i64 %16, 0
   %24 = insertvalue { i64, i64 } %23, i64 %17, 1
   ret { i64, i64 } %24
@@ -5930,23 +5930,23 @@ entry:
   %37 = getelementptr inbounds i8*, i8** %Owner.valueWitnesses, i64 1
   %38 = bitcast i8** %37 to void (%swift.opaque*, %swift.type*)**
   %39 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %38, align 8, !invariant.load !17
-  tail call void %39(%swift.opaque* noalias %2, %swift.type* %4) #24
+  tail call void %39(%swift.opaque* noalias %2, %swift.type* %4) #25
   %40 = insertvalue { i64, i64 } undef, i64 %33, 0
   %41 = insertvalue { i64, i64 } %40, i64 %34, 1
   ret { i64, i64 } %41
 
 42:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 43:                                               ; preds = %23
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 44:                                               ; preds = %20
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -6176,17 +6176,17 @@ entry:
   ret void
 
 35:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 36:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 37:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -6304,57 +6304,57 @@ entry:
   ret void
 
 66:                                               ; preds = %24
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 67:                                               ; preds = %30
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 68:                                               ; preds = %38
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 69:                                               ; preds = %47
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 70:                                               ; preds = %59
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 71:                                               ; preds = %53
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 72:                                               ; preds = %44
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 73:                                               ; preds = %35
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 74:                                               ; preds = %9
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 
 75:                                               ; preds = %13
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 
 76:                                               ; preds = %17
-  tail call void asm sideeffect "", "n"(i32 11) #24
+  tail call void asm sideeffect "", "n"(i32 11) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -6396,17 +6396,17 @@ entry:
   ret i64 %16
 
 19:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 20:                                               ; preds = %15
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 21:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -6485,17 +6485,17 @@ entry:
   ret void
 
 38:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 39:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 40:                                               ; preds = %30
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -6672,57 +6672,57 @@ entry:
   br i1 %85, label %90, label %40, !prof !26
 
 86:                                               ; preds = %11
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 87:                                               ; preds = %17
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 88:                                               ; preds = %59
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 89:                                               ; preds = %68
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 90:                                               ; preds = %80
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 91:                                               ; preds = %74
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 92:                                               ; preds = %65
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 93:                                               ; preds = %22
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 94:                                               ; preds = %25
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 
 95:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 
 96:                                               ; preds = %33
-  tail call void asm sideeffect "", "n"(i32 11) #24
+  tail call void asm sideeffect "", "n"(i32 11) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -6904,17 +6904,17 @@ coro.return:                                      ; preds = %42, %48
   ret { i8*, %swift.opaque* } %49
 
 50:                                               ; preds = %PostSpill
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 51:                                               ; preds = %28
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 52:                                               ; preds = %43
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -6938,7 +6938,7 @@ entryresume.0:
   %5 = getelementptr inbounds i8*, i8** %"\CF\84_0_0.valueWitnesses.reload", i64 1
   %6 = bitcast i8** %5 to void (%swift.opaque*, %swift.type*)**
   %7 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %6, align 8, !invariant.load !17
-  tail call void %7(%swift.opaque* noalias %4, %swift.type* nonnull %"\CF\84_0_0.reload") #24
+  tail call void %7(%swift.opaque* noalias %4, %swift.type* nonnull %"\CF\84_0_0.reload") #25
   tail call void @llvm.lifetime.end.p0i8(i64 -1, i8* %.reload)
   tail call void @free(i8* %.reload)
   ret void
@@ -7103,57 +7103,57 @@ entry:
   br i1 %90, label %95, label %45, !prof !26
 
 91:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 92:                                               ; preds = %22
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 93:                                               ; preds = %64
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 94:                                               ; preds = %73
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 95:                                               ; preds = %85
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 96:                                               ; preds = %79
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 97:                                               ; preds = %70
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 98:                                               ; preds = %27
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 99:                                               ; preds = %30
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 
 100:                                              ; preds = %34
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 
 101:                                              ; preds = %38
-  tail call void asm sideeffect "", "n"(i32 11) #24
+  tail call void asm sideeffect "", "n"(i32 11) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7326,17 +7326,17 @@ entry:
   ret i64 %20
 
 23:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 24:                                               ; preds = %19
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 25:                                               ; preds = %16
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7365,7 +7365,7 @@ common.ret:                                       ; preds = %entry
   ret void
 
 17:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7436,7 +7436,7 @@ entry:
   ret void
 
 19:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7504,7 +7504,7 @@ entry:
   ret { i8*, i64 } %14
 
 15:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7553,12 +7553,12 @@ entry:
   ret { i8*, i64 } %23
 
 24:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 25:                                               ; preds = %8
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7607,12 +7607,12 @@ entry:
   ret { i8*, i64 } %23
 
 24:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 25:                                               ; preds = %8
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7650,7 +7650,7 @@ entry:
   ret { i8*, i64 } %15
 
 16:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -7832,72 +7832,72 @@ entry:
   ret { i8*, i64 } %97
 
 98:                                               ; preds = %23
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 99:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 100:                                              ; preds = %60
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 101:                                              ; preds = %69
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 102:                                              ; preds = %81
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 103:                                              ; preds = %52
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 104:                                              ; preds = %89
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 105:                                              ; preds = %56
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 106:                                              ; preds = %75
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 
 107:                                              ; preds = %66
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 
 108:                                              ; preds = %34
-  tail call void asm sideeffect "", "n"(i32 11) #24
+  tail call void asm sideeffect "", "n"(i32 11) #25
   tail call void @llvm.trap()
   unreachable
 
 109:                                              ; preds = %37
-  tail call void asm sideeffect "", "n"(i32 12) #24
+  tail call void asm sideeffect "", "n"(i32 12) #25
   tail call void @llvm.trap()
   unreachable
 
 110:                                              ; preds = %41
-  tail call void asm sideeffect "", "n"(i32 13) #24
+  tail call void asm sideeffect "", "n"(i32 13) #25
   tail call void @llvm.trap()
   unreachable
 
 111:                                              ; preds = %45
-  tail call void asm sideeffect "", "n"(i32 14) #24
+  tail call void asm sideeffect "", "n"(i32 14) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8074,72 +8074,72 @@ entry:
   ret { i8*, i64 } %94
 
 95:                                               ; preds = %26
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 96:                                               ; preds = %32
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 97:                                               ; preds = %59
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 98:                                               ; preds = %68
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 99:                                               ; preds = %78
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 100:                                              ; preds = %51
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 101:                                              ; preds = %86
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 102:                                              ; preds = %55
-  tail call void asm sideeffect "", "n"(i32 8) #24
+  tail call void asm sideeffect "", "n"(i32 8) #25
   tail call void @llvm.trap()
   unreachable
 
 103:                                              ; preds = %74
-  tail call void asm sideeffect "", "n"(i32 9) #24
+  tail call void asm sideeffect "", "n"(i32 9) #25
   tail call void @llvm.trap()
   unreachable
 
 104:                                              ; preds = %65
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 
 105:                                              ; preds = %36
-  tail call void asm sideeffect "", "n"(i32 11) #24
+  tail call void asm sideeffect "", "n"(i32 11) #25
   tail call void @llvm.trap()
   unreachable
 
 106:                                              ; preds = %39
-  tail call void asm sideeffect "", "n"(i32 12) #24
+  tail call void asm sideeffect "", "n"(i32 12) #25
   tail call void @llvm.trap()
   unreachable
 
 107:                                              ; preds = %43
-  tail call void asm sideeffect "", "n"(i32 13) #24
+  tail call void asm sideeffect "", "n"(i32 13) #25
   tail call void @llvm.trap()
   unreachable
 
 108:                                              ; preds = %47
-  tail call void asm sideeffect "", "n"(i32 14) #24
+  tail call void asm sideeffect "", "n"(i32 14) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8250,17 +8250,17 @@ entry:
   ret void
 
 21:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 22:                                               ; preds = %17
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 23:                                               ; preds = %14
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8366,7 +8366,7 @@ entry:
 15:                                               ; preds = %9
   tail call swiftcc void @"$sSV13loadUnaligned14fromByteOffset2asxSi_xmtlF"(%swift.opaque* noalias nocapture sret(%swift.opaque) %0, i64 0, %swift.type* nonnull %Element1, i8* %2, %swift.type* nonnull %Element1)
   %16 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %14, align 8, !invariant.load !17
-  tail call void %16(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element1) #24
+  tail call void %16(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element1) #25
   %17 = load i8*, i8** %.curPointer._rawValue, align 8
   %18 = getelementptr inbounds i8*, i8** %Element1.valueWitnesses, i64 9
   %19 = bitcast i8** %18 to i64*
@@ -8378,7 +8378,7 @@ entry:
 21:                                               ; preds = %9
   tail call swiftcc void @"$sSV4load14fromByteOffset2asxSi_xmtlF"(%swift.opaque* noalias nocapture sret(%swift.opaque) %0, i64 0, %swift.type* nonnull %Element1, i8* %2, %swift.type* nonnull %Element1)
   %22 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %14, align 8, !invariant.load !17
-  tail call void %22(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element1) #24
+  tail call void %22(%swift.opaque* noalias %0, i32 0, i32 1, %swift.type* nonnull %Element1) #25
   %23 = load i8*, i8** %.curPointer._rawValue, align 8
   %24 = getelementptr inbounds i8*, i8** %Element1.valueWitnesses, i64 9
   %25 = bitcast i8** %24 to i64*
@@ -8391,7 +8391,7 @@ entry:
   %28 = getelementptr inbounds i8*, i8** %Element1.valueWitnesses, i64 7
   %29 = bitcast i8** %28 to void (%swift.opaque*, i32, i32, %swift.type*)**
   %30 = load void (%swift.opaque*, i32, i32, %swift.type*)*, void (%swift.opaque*, i32, i32, %swift.type*)** %29, align 8, !invariant.load !17
-  tail call void %30(%swift.opaque* noalias %0, i32 1, i32 1, %swift.type* %Element1) #24
+  tail call void %30(%swift.opaque* noalias %0, i32 1, i32 1, %swift.type* %Element1) #25
   br label %31
 
 31:                                               ; preds = %15, %21, %27
@@ -8516,12 +8516,64 @@ entry:
   ret i64 %20
 
 22:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 ._crit_edge:                                      ; preds = %7, %4
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
+  tail call void @llvm.trap()
+  unreachable
+}
+
+define swiftcc i64 @"$s10BufferView16bufferviewtest2cySiA2AVySiG_SitF"(i8* nocapture readonly %0, i64 %1, i64 %2) #1 {
+entry:
+  %3 = icmp slt i64 %1, %2
+  br i1 %3, label %24, label %4, !prof !26
+
+4:                                                ; preds = %entry
+  %5 = icmp slt i64 %2, 0
+  br i1 %5, label %25, label %6, !prof !26
+
+6:                                                ; preds = %4
+  %7 = shl i64 %1, 3
+  %8 = icmp slt i64 %7, 0
+  br i1 %8, label %._crit_edge, label %.lr.ph, !prof !26
+
+9:                                                ; preds = %.lr.ph
+  %10 = add nuw nsw i64 %16, 1
+  %11 = shl i64 %10, 3
+  %12 = icmp slt i64 %11, 0
+  %13 = icmp slt i64 %7, %11
+  %14 = or i1 %12, %13
+  br i1 %14, label %._crit_edge, label %.lr.ph, !prof !26
+
+.lr.ph:                                           ; preds = %6, %9
+  %15 = phi i64 [ %11, %9 ], [ 0, %6 ]
+  %16 = phi i64 [ %10, %9 ], [ 0, %6 ]
+  %17 = phi i64 [ %22, %9 ], [ 0, %6 ]
+  %18 = getelementptr inbounds i8, i8* %0, i64 %15
+  %19 = bitcast i8* %18 to i64*
+  %20 = load i64, i64* %19, align 1
+  %21 = icmp eq i64 %16, %2
+  %22 = add i64 %20, %17
+  br i1 %21, label %23, label %9
+
+23:                                               ; preds = %.lr.ph
+  ret i64 %22
+
+24:                                               ; preds = %entry
+  tail call void asm sideeffect "", "n"(i32 0) #25
+  tail call void @llvm.trap()
+  unreachable
+
+25:                                               ; preds = %4
+  tail call void asm sideeffect "", "n"(i32 1) #25
+  tail call void @llvm.trap()
+  unreachable
+
+._crit_edge:                                      ; preds = %9, %6
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8559,14 +8611,20 @@ define swiftcc i64 @"$s10BufferView15bufferviewtest3ySiA2AVySiGF"(i8* %0, i64 %1
   ret i64 %.lcssa
 
 18:                                               ; preds = %.lr.ph19
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 19:                                               ; preds = %9
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
+}
+
+; Function Attrs: mustprogress nofree noinline norecurse nosync nounwind readnone willreturn
+define swiftcc void @"$s10BufferView9blackholeyyxzlF"(%swift.opaque* nocapture readnone %0, %swift.type* nocapture readnone %T) #9 {
+entry:
+  ret void
 }
 
 define swiftcc i1 @"$s10BufferView15bufferviewtest4ySbA2AVySiG_AA0aB5IndexVySiGtF"(i8* readnone %0, i64 %1, i8* readnone %2) #1 {
@@ -8582,7 +8640,7 @@ entry:
   ret i1 true
 
 9:                                                ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8603,7 +8661,7 @@ entry:
   ret i64 %11
 
 12:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8669,42 +8727,42 @@ entry:
   ret void
 
 37:                                               ; preds = %18
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 38:                                               ; preds = %19
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 39:                                               ; preds = %20
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 40:                                               ; preds = %24
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 41:                                               ; preds = %26
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 
 42:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 7) #24
+  tail call void asm sideeffect "", "n"(i32 7) #25
   tail call void @llvm.trap()
   unreachable
 
 43:                                               ; preds = %31
-  tail call void asm sideeffect "", "n"(i32 10) #24
+  tail call void asm sideeffect "", "n"(i32 10) #25
   tail call void @llvm.trap()
   unreachable
 
 44:                                               ; preds = %34
-  tail call void asm sideeffect "", "n"(i32 11) #24
+  tail call void asm sideeffect "", "n"(i32 11) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8746,17 +8804,17 @@ define swiftcc void @"$s10BufferView15bufferviewtest7yyAA07MutableaB0VySiGF"(i8*
   ret void
 
 19:                                               ; preds = %.lr.ph8
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 
 20:                                               ; preds = %9
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 21:                                               ; preds = %10
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8821,17 +8879,17 @@ entry:
   ret { i8*, i64 } %19
 
 20:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 21:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 22:                                               ; preds = %9
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -8909,7 +8967,7 @@ entry:
   %45 = getelementptr inbounds i8*, i8** %S.valueWitnesses, i64 2
   %46 = bitcast i8** %45 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %47 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %46, align 8, !invariant.load !17
-  %48 = call %swift.opaque* %47(%swift.opaque* noalias nonnull %27, %swift.opaque* noalias %2, %swift.type* nonnull %S) #24
+  %48 = call %swift.opaque* %47(%swift.opaque* noalias nonnull %27, %swift.opaque* noalias %2, %swift.type* nonnull %S) #25
   call swiftcc void @"$sST12makeIterator0B0QzyFTj"(%swift.opaque* noalias nocapture nonnull sret(%swift.opaque) %34, %swift.opaque* noalias nocapture nonnull swiftself %27, %swift.type* nonnull %S, i8** %S.Sequence)
   %49 = icmp sgt i64 %42, 0
   br i1 %49, label %.preheader, label %.loopexit
@@ -8938,12 +8996,12 @@ entry:
 
 64:                                               ; preds = %59
   %65 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %54, align 8, !invariant.load !17
-  %66 = call %swift.opaque* %65(%swift.opaque* noalias nonnull %21, %swift.opaque* noalias nonnull %50, %swift.type* %15) #24
+  %66 = call %swift.opaque* %65(%swift.opaque* noalias nonnull %21, %swift.opaque* noalias nonnull %50, %swift.type* %15) #25
   %67 = bitcast i8* %61 to %swift.opaque*
   %68 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %56, align 8, !invariant.load !17, !noalias !66
-  %69 = call %swift.opaque* %68(%swift.opaque* noalias %67, %swift.opaque* noalias nonnull %21, %swift.type* %15) #24
+  %69 = call %swift.opaque* %68(%swift.opaque* noalias %67, %swift.opaque* noalias nonnull %21, %swift.type* %15) #25
   %70 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %58, align 8, !invariant.load !17
-  call void %70(%swift.opaque* noalias nonnull %21, %swift.type* %15) #24
+  call void %70(%swift.opaque* noalias nonnull %21, %swift.type* %15) #25
   %71 = add nuw nsw i64 %60, 1
   %72 = getelementptr inbounds i8, i8* %61, i64 %stride
   %exitcond.not = icmp eq i64 %71, %42
@@ -8953,7 +9011,7 @@ entry:
   %74 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %75 = bitcast i8** %74 to void (%swift.opaque*, %swift.type*)**
   %76 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %75, align 8, !invariant.load !17
-  call void %76(%swift.opaque* noalias nonnull %50, %swift.type* %8) #24
+  call void %76(%swift.opaque* noalias nonnull %50, %swift.type* %8) #25
   br label %.loopexit
 
 .loopexit:                                        ; preds = %64, %44, %73
@@ -8961,7 +9019,7 @@ entry:
   %78 = getelementptr inbounds i8*, i8** %S.Iterator.valueWitnesses, i64 2
   %79 = bitcast i8** %78 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %80 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %79, align 8, !invariant.load !17
-  %81 = call %swift.opaque* %80(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %34, %swift.type* %S.Iterator) #24
+  %81 = call %swift.opaque* %80(%swift.opaque* noalias %0, %swift.opaque* noalias nonnull %34, %swift.type* %S.Iterator) #25
   %82 = bitcast %T10BufferView09OutputRawA0V* %5 to i8*
   call void @llvm.lifetime.start.p0i8(i64 16, i8* nonnull %82)
   %.baseAddress._rawValue = getelementptr inbounds %T10BufferView09OutputRawA0V, %T10BufferView09OutputRawA0V* %5, i64 0, i32 0, i32 0
@@ -8973,7 +9031,7 @@ entry:
   %85 = getelementptr inbounds i8*, i8** %S.Iterator.valueWitnesses, i64 1
   %86 = bitcast i8** %85 to void (%swift.opaque*, %swift.type*)**
   %87 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %86, align 8, !invariant.load !17
-  call void %87(%swift.opaque* noalias nonnull %34, %swift.type* %S.Iterator) #24
+  call void %87(%swift.opaque* noalias nonnull %34, %swift.type* %S.Iterator) #25
   call void @llvm.lifetime.end.p0i8(i64 16, i8* nonnull %82)
   call void @llvm.lifetime.end.p0i8(i64 -1, i8* nonnull %33)
   call void @llvm.lifetime.end.p0i8(i64 -1, i8* nonnull %26)
@@ -8982,17 +9040,17 @@ entry:
   ret { i8*, i64 } %84
 
 88:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 89:                                               ; preds = %41
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 90:                                               ; preds = %38
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -9087,7 +9145,7 @@ entry:
   %56 = bitcast i8** %55 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %57 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %56, align 8, !invariant.load !17
   %58 = bitcast i8* %16 to %swift.opaque*
-  %59 = call %swift.opaque* %57(%swift.opaque* noalias nonnull %58, %swift.opaque* noalias nonnull %54, %swift.type* nonnull %11) #24
+  %59 = call %swift.opaque* %57(%swift.opaque* noalias nonnull %58, %swift.opaque* noalias nonnull %54, %swift.type* nonnull %11) #25
   %60 = getelementptr inbounds %swift.type, %swift.type* %52, i64 -1
   %61 = bitcast %swift.type* %60 to i8***
   %.valueWitnesses2 = load i8**, i8*** %61, align 8, !invariant.load !17, !dereferenceable !18
@@ -9102,8 +9160,8 @@ entry:
   %67 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %68 = bitcast i8** %67 to void (%swift.opaque*, %swift.type*)**
   %69 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %68, align 8, !invariant.load !17
-  call void %69(%swift.opaque* noalias nonnull %58, %swift.type* nonnull %11) #24
-  call void asm sideeffect "", "n"(i32 0) #24
+  call void %69(%swift.opaque* noalias nonnull %58, %swift.type* nonnull %11) #25
+  call void asm sideeffect "", "n"(i32 0) #25
   call void @llvm.trap()
   unreachable
 
@@ -9111,7 +9169,7 @@ entry:
   %70 = getelementptr inbounds i8*, i8** %C.Iterator.valueWitnesses, i64 1
   %71 = bitcast i8** %70 to void (%swift.opaque*, %swift.type*)**
   %72 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %71, align 8, !invariant.load !17
-  call void %72(%swift.opaque* noalias nonnull %24, %swift.type* nonnull %C.Iterator) #24
+  call void %72(%swift.opaque* noalias nonnull %24, %swift.type* nonnull %C.Iterator) #25
   br label %73
 
 73:                                               ; preds = %43, %.critedge
@@ -9220,32 +9278,32 @@ entry:
   ret { i8*, i64 } %.pn
 
 46:                                               ; preds = %19
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 47:                                               ; preds = %.critedge
-  tail call void asm sideeffect "", "n"(i32 2) #24
+  tail call void asm sideeffect "", "n"(i32 2) #25
   tail call void @llvm.trap()
   unreachable
 
 48:                                               ; preds = %29
-  tail call void asm sideeffect "", "n"(i32 3) #24
+  tail call void asm sideeffect "", "n"(i32 3) #25
   tail call void @llvm.trap()
   unreachable
 
 49:                                               ; preds = %32
-  tail call void asm sideeffect "", "n"(i32 4) #24
+  tail call void asm sideeffect "", "n"(i32 4) #25
   tail call void @llvm.trap()
   unreachable
 
 50:                                               ; preds = %35
-  tail call void asm sideeffect "", "n"(i32 5) #24
+  tail call void asm sideeffect "", "n"(i32 5) #25
   tail call void @llvm.trap()
   unreachable
 
 51:                                               ; preds = %24
-  tail call void asm sideeffect "", "n"(i32 6) #24
+  tail call void asm sideeffect "", "n"(i32 6) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -9302,12 +9360,12 @@ entry:
   ret i64 %10
 
 23:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
 24:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 1) #24
+  tail call void asm sideeffect "", "n"(i32 1) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -9390,7 +9448,7 @@ entry:
   ret i1 %15
 
 16:                                               ; preds = %5
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 }
@@ -9402,22 +9460,22 @@ declare swiftcc void @"$ss17withUnsafePointer2to_q_x_q_SPyxGKXEtKr0_lF"(%swift.o
 declare swiftcc %Ts28__ContiguousArrayStorageBaseC* @"$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlF"(%swift.opaque* noalias nocapture, %swift.type*, i8**) local_unnamed_addr #1
 
 ; Function Attrs: cold noreturn nounwind
-declare void @llvm.trap() #9
+declare void @llvm.trap() #10
 
 ; Function Attrs: argmemonly mustprogress nocallback nofree nosync nounwind willreturn
-declare void @llvm.lifetime.start.p0i8(i64 immarg, i8* nocapture) #10
+declare void @llvm.lifetime.start.p0i8(i64 immarg, i8* nocapture) #11
 
 ; Function Attrs: argmemonly mustprogress nocallback nofree nosync nounwind willreturn
-declare void @llvm.lifetime.end.p0i8(i64 immarg, i8* nocapture) #10
+declare void @llvm.lifetime.end.p0i8(i64 immarg, i8* nocapture) #11
 
 ; Function Attrs: noinline
 declare swiftcc void @"$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF"(i64, i64, i8, i64, %swift.bridge*, i64, i64, i8, i64, i32) local_unnamed_addr #5
 
 ; Function Attrs: mustprogress nocallback nofree nosync nounwind readnone speculatable willreturn
-declare { i64, i1 } @llvm.smul.with.overflow.i64(i64, i64) #11
+declare { i64, i1 } @llvm.smul.with.overflow.i64(i64, i64) #12
 
 ; Function Attrs: mustprogress nofree noinline nosync nounwind readnone willreturn
-define swiftcc %swift.metadata_response @"$s10BufferView07MutableaB0VMa"(i64 %0, %swift.type* readnone %1) #12 {
+define swiftcc %swift.metadata_response @"$s10BufferView07MutableaB0VMa"(i64 %0, %swift.type* readnone %1) #13 {
 entry:
   %2 = bitcast %swift.type* %1 to i8*
   %3 = tail call swiftcc %swift.metadata_response @__swift_instantiateGenericMetadata(i64 %0, i8* %2, i8* undef, i8* undef, %swift.type_descriptor* nonnull bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView07MutableaB0VMn" to %swift.type_descriptor*)) #31
@@ -9425,12 +9483,12 @@ entry:
 }
 
 ; Function Attrs: mustprogress nofree nounwind readonly willreturn
-declare swiftcc %swift.metadata_response @swift_getTupleTypeMetadata2(i64, %swift.type*, %swift.type*, i8*, i8**) local_unnamed_addr #13
+declare swiftcc %swift.metadata_response @swift_getTupleTypeMetadata2(i64, %swift.type*, %swift.type*, i8*, i8**) local_unnamed_addr #14
 
 declare swiftcc %swift.metadata_response @"$sSqMa"(i64, %swift.type*) local_unnamed_addr #1
 
 ; Function Attrs: mustprogress nofree noinline nosync nounwind readnone willreturn
-define swiftcc %swift.metadata_response @"$s10BufferView0aB5IndexVMa"(i64 %0, %swift.type* readnone %1) #12 {
+define swiftcc %swift.metadata_response @"$s10BufferView0aB5IndexVMa"(i64 %0, %swift.type* readnone %1) #13 {
 entry:
   %2 = bitcast %swift.type* %1 to i8*
   %3 = tail call swiftcc %swift.metadata_response @__swift_instantiateGenericMetadata(i64 %0, i8* %2, i8* undef, i8* undef, %swift.type_descriptor* nonnull bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView0aB5IndexVMn" to %swift.type_descriptor*)) #31
@@ -9438,10 +9496,10 @@ entry:
 }
 
 ; Function Attrs: nofree nounwind readonly
-declare i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor*, %swift.type*, i8***) local_unnamed_addr #14
+declare i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor*, %swift.type*, i8***) local_unnamed_addr #15
 
 ; Function Attrs: mustprogress nofree noinline nosync nounwind readnone willreturn
-define swiftcc %swift.metadata_response @"$s10BufferViewAAVMa"(i64 %0, %swift.type* readnone %1) #12 {
+define swiftcc %swift.metadata_response @"$s10BufferViewAAVMa"(i64 %0, %swift.type* readnone %1) #13 {
 entry:
   %2 = bitcast %swift.type* %1 to i8*
   %3 = tail call swiftcc %swift.metadata_response @__swift_instantiateGenericMetadata(i64 %0, i8* %2, i8* undef, i8* undef, %swift.type_descriptor* nonnull bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferViewAAVMn" to %swift.type_descriptor*)) #31
@@ -9453,20 +9511,20 @@ declare swiftcc %swift.metadata_response @"$ss12Zip2SequenceVMa"(i64, i8**) loca
 declare swiftcc %swift.metadata_response @"$ss12Zip2SequenceV8IteratorVMa"(i64, i8**) local_unnamed_addr #1
 
 ; Function Attrs: mustprogress nofree nounwind readonly willreturn
-declare swiftcc %swift.metadata_response @swift_checkMetadataState(i64, %swift.type*) local_unnamed_addr #13
+declare swiftcc %swift.metadata_response @swift_checkMetadataState(i64, %swift.type*) local_unnamed_addr #14
 
 declare swiftcc i1 @"$sSQ2eeoiySbx_xtFZTj"(%swift.opaque* noalias nocapture, %swift.opaque* noalias nocapture, %swift.type* swiftself, %swift.type*, i8**) local_unnamed_addr #1
 
 ; Function Attrs: inaccessiblememonly mustprogress nofree nounwind willreturn allockind("alloc,uninitialized") allocsize(0)
-declare noalias noundef i8* @malloc(i64 noundef) local_unnamed_addr #15
+declare noalias noundef i8* @malloc(i64 noundef) local_unnamed_addr #16
 
 ; Function Attrs: inaccessiblemem_or_argmemonly mustprogress nounwind willreturn allockind("free")
-declare void @free(i8* allocptr nocapture noundef) local_unnamed_addr #16
+declare void @free(i8* allocptr nocapture noundef) local_unnamed_addr #17
 
 declare swiftcc %swift.metadata_response @"$sSnMa"(i64, %swift.type*, i8**) local_unnamed_addr #1
 
 ; Function Attrs: nofree noinline nosync nounwind readnone
-define linkonce_odr hidden i8** @"$sS2iSZsWl"() local_unnamed_addr #17 {
+define linkonce_odr hidden i8** @"$sS2iSZsWl"() local_unnamed_addr #18 {
 entry:
   %0 = load i8**, i8*** @"$sS2iSZsWL", align 8
   %1 = icmp eq i8** %0, null
@@ -9483,23 +9541,23 @@ cont:                                             ; preds = %cacheIsNull, %entry
 }
 
 ; Function Attrs: mustprogress nocallback nofree nosync nounwind willreturn
-declare i8* @llvm.stacksave() #18
+declare i8* @llvm.stacksave() #19
 
 ; Function Attrs: mustprogress nocallback nofree nosync nounwind willreturn
-declare void @llvm.stackrestore(i8*) #18
+declare void @llvm.stackrestore(i8*) #19
 
 ; Function Attrs: argmemonly mustprogress nocallback nofree nounwind willreturn
-declare void @llvm.memmove.p0i8.p0i8.i64(i8* nocapture writeonly, i8* nocapture readonly, i64, i1 immarg) #19
+declare void @llvm.memmove.p0i8.p0i8.i64(i8* nocapture writeonly, i8* nocapture readonly, i64, i1 immarg) #20
 
 ; Function Attrs: mustprogress nofree nosync nounwind readnone willreturn
-declare swiftcc %swift.metadata_response @swift_getAssociatedTypeWitness(i64, i8**, %swift.type*, %swift.protocol_requirement*, %swift.protocol_requirement*) local_unnamed_addr #20
+declare swiftcc %swift.metadata_response @swift_getAssociatedTypeWitness(i64, i8**, %swift.type*, %swift.protocol_requirement*, %swift.protocol_requirement*) local_unnamed_addr #21
 
 declare swiftcc void @"$sST12makeIterator0B0QzyFTj"(%swift.opaque* noalias nocapture sret(%swift.opaque), %swift.opaque* noalias nocapture swiftself, %swift.type*, i8**) local_unnamed_addr #1
 
 declare swiftcc void @"$sSt4next7ElementQzSgyFTj"(%swift.opaque* noalias nocapture sret(%swift.opaque), %swift.opaque* nocapture swiftself, %swift.type*, i8**) local_unnamed_addr #1
 
 ; Function Attrs: mustprogress nofree nosync nounwind readnone willreturn
-declare swiftcc i8** @swift_getAssociatedConformanceWitness(i8**, %swift.type*, %swift.type*, %swift.protocol_requirement*, %swift.protocol_requirement*) local_unnamed_addr #20
+declare swiftcc i8** @swift_getAssociatedConformanceWitness(i8**, %swift.type*, %swift.type*, %swift.protocol_requirement*, %swift.protocol_requirement*) local_unnamed_addr #21
 
 define internal swiftcc void @"$s10BufferView07MutableaB0V6update14fromContentsOfAA0aB5IndexVyxGqd___t7ElementQyd__RszSlRd__lFSiSRyxGXEfU_TA"(%TSi* noalias nocapture writeonly sret(%TSi) %0, i64 %1, i64 %2, %swift.refcounted* nocapture readonly swiftself %3, %swift.error** noalias nocapture readnone swifterror dereferenceable(8) %4) #1 {
 entry:
@@ -9527,7 +9585,7 @@ entry:
   br label %"$s10BufferView07MutableaB0V6update14fromContentsOfAA0aB5IndexVyxGqd___t7ElementQyd__RszSlRd__lFSiSRyxGXEfU_.exit"
 
 16:                                               ; preds = %12
-  tail call void asm sideeffect "", "n"(i32 0) #24, !noalias !72
+  tail call void asm sideeffect "", "n"(i32 0) #25, !noalias !72
   tail call void @llvm.trap(), !noalias !72
   unreachable
 
@@ -9543,7 +9601,7 @@ declare swiftcc void @"$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7Elem
 declare swiftcc i1 @"$sSl7isEmptySbvgTj"(%swift.opaque* noalias nocapture swiftself, %swift.type*, i8**) local_unnamed_addr #1
 
 ; Function Attrs: mustprogress nocallback nofree nosync nounwind readnone speculatable willreturn
-declare { i64, i1 } @llvm.sadd.with.overflow.i64(i64, i64) #11
+declare { i64, i1 } @llvm.sadd.with.overflow.i64(i64, i64) #12
 
 define linkonce_odr hidden swiftcc %Ts28__ContiguousArrayStorageBaseC* @"$sSlsE22_copyToContiguousArrays0cD0Vy7ElementQzGyFTf4g_n"(%swift.opaque* noalias nocapture %0, %swift.type* %Self, i8** %Self.Collection) local_unnamed_addr #1 {
 entry:
@@ -9582,12 +9640,12 @@ entry:
   %24 = getelementptr inbounds i8*, i8** %.valueWitnesses1, i64 2
   %25 = bitcast i8** %24 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %26 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %25, align 8, !invariant.load !17
-  %27 = call %swift.opaque* %26(%swift.opaque* noalias nonnull %21, %swift.opaque* noalias %0, %swift.type* %15) #24
+  %27 = call %swift.opaque* %26(%swift.opaque* noalias nonnull %21, %swift.opaque* noalias %0, %swift.type* %15) #25
   %28 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 2
   %29 = bitcast i8** %28 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %30 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %29, align 8, !invariant.load !17
   %31 = bitcast i8* %13 to %swift.opaque*
-  %32 = call %swift.opaque* %30(%swift.opaque* noalias nonnull %31, %swift.opaque* noalias %22, %swift.type* %8) #24
+  %32 = call %swift.opaque* %30(%swift.opaque* noalias nonnull %31, %swift.opaque* noalias %22, %swift.type* %8) #25
   br i1 %23, label %33, label %.critedge, !prof !28
 
 33:                                               ; preds = %entry
@@ -9601,11 +9659,11 @@ entry:
   %40 = getelementptr inbounds i8*, i8** %.valueWitnesses1, i64 1
   %41 = bitcast i8** %40 to void (%swift.opaque*, %swift.type*)**
   %42 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %41, align 8, !invariant.load !17
-  call void %42(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %15) #24
+  call void %42(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %15) #25
   %43 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %44 = bitcast i8** %43 to void (%swift.opaque*, %swift.type*)**
   %45 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %44, align 8, !invariant.load !17
-  call void %45(%swift.opaque* noalias nonnull %31, %swift.type* nonnull %8) #24
+  call void %45(%swift.opaque* noalias nonnull %31, %swift.type* nonnull %8) #25
   br i1 %39, label %46, label %53, !prof !28
 
 46:                                               ; preds = %33
@@ -9617,15 +9675,15 @@ entry:
   %47 = getelementptr inbounds i8*, i8** %.valueWitnesses1, i64 1
   %48 = bitcast i8** %47 to void (%swift.opaque*, %swift.type*)**
   %49 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %48, align 8, !invariant.load !17
-  call void %49(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %15) #24
+  call void %49(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %15) #25
   %50 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %51 = bitcast i8** %50 to void (%swift.opaque*, %swift.type*)**
   %52 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %51, align 8, !invariant.load !17
-  call void %52(%swift.opaque* noalias nonnull %31, %swift.type* nonnull %8) #24
+  call void %52(%swift.opaque* noalias nonnull %31, %swift.type* nonnull %8) #25
   br label %53
 
 53:                                               ; preds = %.critedge, %33
-  call void asm sideeffect "", "n"(i32 0) #24
+  call void asm sideeffect "", "n"(i32 0) #25
   call void @llvm.trap()
   unreachable
 }
@@ -9656,9 +9714,9 @@ entry:
   %17 = bitcast i8** %16 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %18 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %17, align 8, !invariant.load !17
   %19 = bitcast i8* %10 to %swift.opaque*
-  %20 = call %swift.opaque* %18(%swift.opaque* noalias nonnull %19, %swift.opaque* noalias %14, %swift.type* %4) #24
+  %20 = call %swift.opaque* %18(%swift.opaque* noalias nonnull %19, %swift.opaque* noalias %14, %swift.type* %4) #25
   %21 = bitcast i8* %9 to %swift.opaque*
-  %22 = call %swift.opaque* %18(%swift.opaque* noalias nonnull %21, %swift.opaque* noalias %13, %swift.type* %4) #24
+  %22 = call %swift.opaque* %18(%swift.opaque* noalias nonnull %21, %swift.opaque* noalias %13, %swift.type* %4) #25
   br i1 %15, label %23, label %.critedge, !prof !28
 
 23:                                               ; preds = %entry
@@ -9674,8 +9732,8 @@ entry:
   %31 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %32 = bitcast i8** %31 to void (%swift.opaque*, %swift.type*)**
   %33 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %32, align 8, !invariant.load !17
-  call void %33(%swift.opaque* noalias nonnull %19, %swift.type* nonnull %4) #24
-  call void %33(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %4) #24
+  call void %33(%swift.opaque* noalias nonnull %19, %swift.type* nonnull %4) #25
+  call void %33(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %4) #25
   br i1 %30, label %34, label %38, !prof !28
 
 34:                                               ; preds = %23
@@ -9687,12 +9745,12 @@ entry:
   %35 = getelementptr inbounds i8*, i8** %.valueWitnesses, i64 1
   %36 = bitcast i8** %35 to void (%swift.opaque*, %swift.type*)**
   %37 = load void (%swift.opaque*, %swift.type*)*, void (%swift.opaque*, %swift.type*)** %36, align 8, !invariant.load !17
-  call void %37(%swift.opaque* noalias nonnull %19, %swift.type* nonnull %4) #24
-  call void %37(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %4) #24
+  call void %37(%swift.opaque* noalias nonnull %19, %swift.type* nonnull %4) #25
+  call void %37(%swift.opaque* noalias nonnull %21, %swift.type* nonnull %4) #25
   br label %38
 
 38:                                               ; preds = %.critedge, %23
-  call void asm sideeffect "", "n"(i32 0) #24
+  call void asm sideeffect "", "n"(i32 0) #25
   call void @llvm.trap()
   unreachable
 }
@@ -9711,7 +9769,7 @@ entry:
   %12 = getelementptr inbounds i8*, i8** %Owner.valueWitnesses, i64 2
   %13 = bitcast i8** %12 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %14 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %13, align 8, !invariant.load !17
-  %15 = call %swift.opaque* %14(%swift.opaque* noalias nonnull %11, %swift.opaque* noalias %2, %swift.type* %4) #24
+  %15 = call %swift.opaque* %14(%swift.opaque* noalias nonnull %11, %swift.opaque* noalias %2, %swift.type* %4) #25
   %16 = call swiftcc { i8*, i64 } %5(i8* %0, i64 %1, %swift.opaque* noalias nocapture nonnull %11, %swift.type* %3, %swift.type* %4)
   call void @llvm.lifetime.end.p0i8(i64 -1, i8* nonnull %10)
   ret { i8*, i64 } %16
@@ -9722,12 +9780,12 @@ declare swiftcc void @"$ss6HasherV8_combineyySuF"(i64, %Ts6HasherV* nocapture sw
 declare swiftcc void @"$ss6HasherV5_seedABSi_tcfC"(%Ts6HasherV* noalias nocapture sret(%Ts6HasherV), i64) local_unnamed_addr #1
 
 ; Function Attrs: argmemonly mustprogress nocallback nofree nounwind willreturn
-declare void @llvm.memcpy.p0i8.p0i8.i64(i8* noalias nocapture writeonly, i8* noalias nocapture readonly, i64, i1 immarg) #19
+declare void @llvm.memcpy.p0i8.p0i8.i64(i8* noalias nocapture writeonly, i8* noalias nocapture readonly, i64, i1 immarg) #20
 
 declare swiftcc i64 @"$ss6HasherV9_finalizeSiyF"(%Ts6HasherV* nocapture swiftself dereferenceable(72)) local_unnamed_addr #1
 
 ; Function Attrs: mustprogress nocallback nofree nosync nounwind readnone speculatable willreturn
-declare i64 @llvm.umax.i64(i64, i64) #11
+declare i64 @llvm.umax.i64(i64, i64) #12
 
 define internal swiftcc void @"$s10BufferView09OutputRawA0V16initializeMemory2as14fromContentsOfAA07MutableaB0Vy7ElementQzGAJm_xtSlRzlFSpyAJG4base_Si5counttSRyAJGXEfU_TA"(<{ %TSp, %TSi }>* noalias nocapture writeonly sret(<{ %TSp, %TSi }>) %0, i64 %1, i64 %2, %swift.refcounted* nocapture readonly swiftself %3, %swift.error** noalias nocapture readnone swifterror dereferenceable(8) %4) #1 {
 entry:
@@ -9812,32 +9870,32 @@ entry:
   br label %"$s10BufferView09OutputRawA0V16initializeMemory2as14fromContentsOfAA07MutableaB0Vy7ElementQzGAJm_xtSlRzlFSpyAJG4base_Si5counttSRyAJGXEfU_.exit"
 
 46:                                               ; preds = %27
-  tail call void asm sideeffect "", "n"(i32 0) #24, !noalias !75
+  tail call void asm sideeffect "", "n"(i32 0) #25, !noalias !75
   tail call void @llvm.trap(), !noalias !75
   unreachable
 
 47:                                               ; preds = %.critedge.i
-  tail call void asm sideeffect "", "n"(i32 2) #24, !noalias !75
+  tail call void asm sideeffect "", "n"(i32 2) #25, !noalias !75
   tail call void @llvm.trap(), !noalias !75
   unreachable
 
 48:                                               ; preds = %37
-  tail call void asm sideeffect "", "n"(i32 3) #24, !noalias !75
+  tail call void asm sideeffect "", "n"(i32 3) #25, !noalias !75
   tail call void @llvm.trap(), !noalias !75
   unreachable
 
 49:                                               ; preds = %40
-  tail call void asm sideeffect "", "n"(i32 4) #24, !noalias !75
+  tail call void asm sideeffect "", "n"(i32 4) #25, !noalias !75
   tail call void @llvm.trap(), !noalias !75
   unreachable
 
 50:                                               ; preds = %43
-  tail call void asm sideeffect "", "n"(i32 5) #24, !noalias !75
+  tail call void asm sideeffect "", "n"(i32 5) #25, !noalias !75
   tail call void @llvm.trap(), !noalias !75
   unreachable
 
 51:                                               ; preds = %32
-  tail call void asm sideeffect "", "n"(i32 6) #24, !noalias !75
+  tail call void asm sideeffect "", "n"(i32 6) #25, !noalias !75
   tail call void @llvm.trap(), !noalias !75
   unreachable
 
@@ -9883,162 +9941,162 @@ entry:
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSTAA8IteratorST_StWT"(%swift.type* readonly %"MutableBufferView<Element>.Iterator", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Sequence") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSTAA8IteratorST_StWT"(%swift.type* readonly %"MutableBufferView<Element>.Iterator", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Sequence") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB8IteratorVyxGStAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>.Iterator", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAASTWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAASTWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSTAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA5IndexSl_SLWT"(%swift.type* readonly %"MutableBufferView<Element>.Index", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA5IndexSl_SLWT"(%swift.type* readonly %"MutableBufferView<Element>.Index", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSLAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>.Index", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWT"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #21 {
-  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection", %swift.protocol_conformance_descriptor* @"$sSnyxGSlsSxRzSZ6StrideRpzrlMc") #21
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWT"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #22 {
+  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection", %swift.protocol_conformance_descriptor* @"$sSnyxGSlsSxRzSZ6StrideRpzrlMc") #22
   ret i8** %1
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA11SubSequenceSl_SlWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA11SubSequenceSl_SlWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.Collection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSlAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>.SubSequence", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSMAASlWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.MutableCollection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSMAASlWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.MutableCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSlAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSMAA11SubSequenceSl_SMWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.MutableCollection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSMAA11SubSequenceSl_SMWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.MutableCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSMAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>.SubSequence", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSKAASlWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSKAASlWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSlAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSKAA7IndicesSl_SKWT"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection") #21 {
-  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSKsSxRzSZ6StrideRpzrlMc") #21
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSKAA7IndicesSl_SKWT"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection") #22 {
+  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSKsSxRzSZ6StrideRpzrlMc") #22
   ret i8** %1
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSKAA11SubSequenceSl_SKWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSKAA11SubSequenceSl_SKWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.BidirectionalCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSKAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>.SubSequence", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSkAASKWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSkAASKWb"(%swift.type* readonly %"MutableBufferView<Element>", %swift.type* nocapture readnone %"MutableBufferView<Element>1", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSKAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSkAA7IndicesSl_SkWT"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection") #21 {
-  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSksSxRzSZ6StrideRpzrlMc") #21
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSkAA7IndicesSl_SkWT"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection") #22 {
+  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"MutableBufferView<Element>.Indices", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSksSxRzSZ6StrideRpzrlMc") #22
   ret i8** %1
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSkAA11SubSequenceSl_SkWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection") #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSkAA11SubSequenceSl_SkWT"(%swift.type* readonly %"MutableBufferView<Element>.SubSequence", %swift.type* nocapture readnone %"MutableBufferView<Element>", i8** nocapture readnone %"MutableBufferView<Element>.RandomAccessCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView07MutableaB0VyxGSkAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"MutableBufferView<Element>.SubSequence", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSTAA8IteratorST_StWT"(%swift.type* readonly %"BufferView<Element>.Iterator", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Sequence") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSTAA8IteratorST_StWT"(%swift.type* readonly %"BufferView<Element>.Iterator", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Sequence") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB8IteratorVyxGStAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>.Iterator", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAASTWb"(%swift.type* readonly %"BufferView<Element>", %swift.type* nocapture readnone %"BufferView<Element>1", i8** nocapture readnone %"BufferView<Element>.Collection") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAASTWb"(%swift.type* readonly %"BufferView<Element>", %swift.type* nocapture readnone %"BufferView<Element>1", i8** nocapture readnone %"BufferView<Element>.Collection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSTAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAA5IndexSl_SLWT"(%swift.type* readonly %"BufferView<Element>.Index", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAA5IndexSl_SLWT"(%swift.type* readonly %"BufferView<Element>.Index", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSLAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>.Index", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAA7IndicesSl_SlWT"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection") #21 {
-  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection", %swift.protocol_conformance_descriptor* @"$sSnyxGSlsSxRzSZ6StrideRpzrlMc") #21
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAA7IndicesSl_SlWT"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection") #22 {
+  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection", %swift.protocol_conformance_descriptor* @"$sSnyxGSlsSxRzSZ6StrideRpzrlMc") #22
   ret i8** %1
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAA11SubSequenceSl_SlWT"(%swift.type* readonly %"BufferView<Element>.SubSequence", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSlAA11SubSequenceSl_SlWT"(%swift.type* readonly %"BufferView<Element>.SubSequence", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.Collection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSlAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>.SubSequence", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSKAASlWb"(%swift.type* readonly %"BufferView<Element>", %swift.type* nocapture readnone %"BufferView<Element>1", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSKAASlWb"(%swift.type* readonly %"BufferView<Element>", %swift.type* nocapture readnone %"BufferView<Element>1", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSlAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSKAA7IndicesSl_SKWT"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection") #21 {
-  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSKsSxRzSZ6StrideRpzrlMc") #21
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSKAA7IndicesSl_SKWT"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection") #22 {
+  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSKsSxRzSZ6StrideRpzrlMc") #22
   ret i8** %1
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSKAA11SubSequenceSl_SKWT"(%swift.type* readonly %"BufferView<Element>.SubSequence", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSKAA11SubSequenceSl_SKWT"(%swift.type* readonly %"BufferView<Element>.SubSequence", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.BidirectionalCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSKAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>.SubSequence", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSkAASKWb"(%swift.type* readonly %"BufferView<Element>", %swift.type* nocapture readnone %"BufferView<Element>1", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSkAASKWb"(%swift.type* readonly %"BufferView<Element>", %swift.type* nocapture readnone %"BufferView<Element>1", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSKAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSkAA7IndicesSl_SkWT"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection") #21 {
-  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSksSxRzSZ6StrideRpzrlMc") #21
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSkAA7IndicesSl_SkWT"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection") #22 {
+  %1 = tail call swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %"BufferView<Element>.Indices", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection", %swift.protocol_conformance_descriptor* @"$sSnyxGSksSxRzSZ6StrideRpzrlMc") #22
   ret i8** %1
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %0, %swift.type* nocapture readnone %1, i8** nocapture readnone %2, %swift.protocol_conformance_descriptor* %3) #21 {
+define internal swiftcc i8** @"$s10BufferView07MutableaB0VyxGSlAA7IndicesSl_SlWTTm"(%swift.type* readonly %0, %swift.type* nocapture readnone %1, i8** nocapture readnone %2, %swift.protocol_conformance_descriptor* %3) #22 {
 entry:
   %conditional.requirement.buffer = alloca [2 x i8**], align 8
   %4 = getelementptr inbounds %swift.type, %swift.type* %0, i64 2
@@ -10055,21 +10113,21 @@ entry:
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferViewAAVyxGSkAA11SubSequenceSl_SkWT"(%swift.type* readonly %"BufferView<Element>.SubSequence", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection") #21 {
+define internal swiftcc i8** @"$s10BufferViewAAVyxGSkAA11SubSequenceSl_SkWT"(%swift.type* readonly %"BufferView<Element>.SubSequence", %swift.type* nocapture readnone %"BufferView<Element>", i8** nocapture readnone %"BufferView<Element>.RandomAccessCollection") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferViewAAVyxGSkAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferView<Element>.SubSequence", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView0aB5IndexVyxGSHAASQWb"(%swift.type* readonly %"BufferViewIndex<Element>", %swift.type* nocapture readnone %"BufferViewIndex<Element>1", i8** nocapture readnone %"BufferViewIndex<Element>.Hashable") #21 {
+define internal swiftcc i8** @"$s10BufferView0aB5IndexVyxGSHAASQWb"(%swift.type* readonly %"BufferViewIndex<Element>", %swift.type* nocapture readnone %"BufferViewIndex<Element>1", i8** nocapture readnone %"BufferViewIndex<Element>.Hashable") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSQAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferViewIndex<Element>", i8*** undef) #32
   ret i8** %0
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView0aB5IndexVyxGSxAASLWb"(%swift.type* readonly %"BufferViewIndex<Element>", %swift.type* nocapture readnone %"BufferViewIndex<Element>1", i8** nocapture readnone %"BufferViewIndex<Element>.Strideable") #21 {
+define internal swiftcc i8** @"$s10BufferView0aB5IndexVyxGSxAASLWb"(%swift.type* readonly %"BufferViewIndex<Element>", %swift.type* nocapture readnone %"BufferViewIndex<Element>1", i8** nocapture readnone %"BufferViewIndex<Element>.Strideable") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSLAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferViewIndex<Element>", i8*** undef) #32
   ret i8** %0
@@ -10088,7 +10146,7 @@ entry:
 }
 
 ; Function Attrs: nofree nounwind readonly
-define internal swiftcc i8** @"$s10BufferView0aB5IndexVyxGSLAASQWb"(%swift.type* readonly %"BufferViewIndex<Element>", %swift.type* nocapture readnone %"BufferViewIndex<Element>1", i8** nocapture readnone %"BufferViewIndex<Element>.Comparable") #21 {
+define internal swiftcc i8** @"$s10BufferView0aB5IndexVyxGSLAASQWb"(%swift.type* readonly %"BufferViewIndex<Element>", %swift.type* nocapture readnone %"BufferViewIndex<Element>1", i8** nocapture readnone %"BufferViewIndex<Element>.Comparable") #22 {
 entry:
   %0 = tail call i8** @swift_getWitnessTable(%swift.protocol_conformance_descriptor* nonnull bitcast ({ i32, i32, i32, i32, i32, i32, i32, i16, i16, i32, i32 }* @"$s10BufferView0aB5IndexVyxGSQAAMc" to %swift.protocol_conformance_descriptor*), %swift.type* %"BufferViewIndex<Element>", i8*** undef) #32
   ret i8** %0
@@ -10097,7 +10155,7 @@ entry:
 ; Function Attrs: nounwind
 define internal %swift.type* @"$s10BufferView07MutableaB0VMi"(%swift.type_descriptor* %0, i8** %1, i8* %2) #7 {
 entry:
-  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #24
+  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #25
   ret %swift.type* %3
 }
 
@@ -10115,43 +10173,43 @@ entry:
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn
-define internal i32 @"$s10BufferView07MutableaB0Vwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #22 {
-  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #22
+define internal i32 @"$s10BufferView07MutableaB0Vwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #23 {
+  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #23
   ret i32 %1
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly
-define internal void @"$s10BufferView07MutableaB0Vwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #23 {
-  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #23
+define internal void @"$s10BufferView07MutableaB0Vwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #24 {
+  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"MutableBufferView<Element>") #24
   ret void
 }
 
 ; Function Attrs: nounwind
-declare %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor*, i8**, i8*, i64) local_unnamed_addr #24
+declare %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor*, i8**, i8*, i64) local_unnamed_addr #25
 
 ; Function Attrs: nounwind
 define internal %swift.type* @"$s10BufferViewAAVMi"(%swift.type_descriptor* %0, i8** %1, i8* %2) #7 {
 entry:
-  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #24
+  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #25
   ret %swift.type* %3
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn
-define internal i32 @"$s10BufferViewAAVwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #22 {
-  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #22
+define internal i32 @"$s10BufferViewAAVwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #23 {
+  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #23
   ret i32 %1
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly
-define internal void @"$s10BufferViewAAVwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #23 {
-  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #23
+define internal void @"$s10BufferViewAAVwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #24 {
+  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferView<Element>") #24
   ret void
 }
 
 ; Function Attrs: nounwind
 define internal %swift.type* @"$s10BufferView0aB5IndexVMi"(%swift.type_descriptor* %0, i8** %1, i8* %2) #7 {
 entry:
-  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #24
+  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #25
   ret %swift.type* %3
 }
 
@@ -10166,7 +10224,7 @@ entry:
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn
-define internal i32 @"$s10BufferView0aB5IndexVwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIndex<Element>") #22 {
+define internal i32 @"$s10BufferView0aB5IndexVwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIndex<Element>") #23 {
 entry:
   switch i32 %numEmptyCases, label %0 [
     i32 0, label %15
@@ -10201,7 +10259,7 @@ entry:
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly
-define internal void @"$s10BufferView0aB5IndexVwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIndex<Element>") #23 {
+define internal void @"$s10BufferView0aB5IndexVwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIndex<Element>") #24 {
 entry:
   %0 = bitcast %swift.opaque* %value to i8*
   %1 = getelementptr inbounds i8, i8* %0, i64 8
@@ -10243,24 +10301,24 @@ entry:
 ; Function Attrs: nounwind
 define internal %swift.type* @"$s10BufferView0aB8IteratorVMi"(%swift.type_descriptor* %0, i8** %1, i8* %2) #7 {
 entry:
-  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #24
+  %3 = tail call %swift.type* @swift_allocateGenericValueMetadata(%swift.type_descriptor* %0, i8** %1, i8* %2, i64 16) #25
   ret %swift.type* %3
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn
-define internal i32 @"$s10BufferView0aB8IteratorVwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #22 {
-  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #22
+define internal i32 @"$s10BufferView0aB8IteratorVwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #23 {
+  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #23
   ret i32 %1
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly
-define internal void @"$s10BufferView0aB8IteratorVwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #23 {
-  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #23
+define internal void @"$s10BufferView0aB8IteratorVwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #24 {
+  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %"BufferViewIterator<Element>") #24
   ret void
 }
 
 ; Function Attrs: mustprogress nofree noinline nosync nounwind readnone willreturn
-define swiftcc %swift.metadata_response @"$s10BufferView0aB8IteratorVMa"(i64 %0, %swift.type* readnone %1) #12 {
+define swiftcc %swift.metadata_response @"$s10BufferView0aB8IteratorVMa"(i64 %0, %swift.type* readnone %1) #13 {
 entry:
   %2 = bitcast %swift.type* %1 to i8*
   %3 = tail call swiftcc %swift.metadata_response @__swift_instantiateGenericMetadata(i64 %0, i8* %2, i8* undef, i8* undef, %swift.type_descriptor* nonnull bitcast (<{ i32, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i16, i16, i8, i8, i8, i8 }>* @"$s10BufferView0aB8IteratorVMn" to %swift.type_descriptor*)) #31
@@ -10268,13 +10326,13 @@ entry:
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn
-define internal i32 @"$s10BufferView09OutputRawA0Vwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #22 {
-  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #22
+define internal i32 @"$s10BufferView09OutputRawA0Vwet"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #23 {
+  %1 = tail call i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %value, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #23
   ret i32 %1
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn
-define internal i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %0, i32 %1, %swift.type* nocapture readnone %2) #22 {
+define internal i32 @"$s10BufferView07MutableaB0VwetTm"(%swift.opaque* noalias nocapture readonly %0, i32 %1, %swift.type* nocapture readnone %2) #23 {
 entry:
   switch i32 %1, label %3 [
     i32 0, label %18
@@ -10309,13 +10367,13 @@ entry:
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly
-define internal void @"$s10BufferView09OutputRawA0Vwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #23 {
-  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #23
+define internal void @"$s10BufferView09OutputRawA0Vwst"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #24 {
+  tail call void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %value, i32 %whichCase, i32 %numEmptyCases, %swift.type* nocapture readnone %OutputRawBuffer) #24
   ret void
 }
 
 ; Function Attrs: argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly
-define internal void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %0, i32 %1, i32 %2, %swift.type* nocapture readnone %3) #23 {
+define internal void @"$s10BufferView07MutableaB0VwstTm"(%swift.opaque* noalias nocapture writeonly %0, i32 %1, i32 %2, %swift.type* nocapture readnone %3) #24 {
 entry:
   %4 = bitcast %swift.opaque* %0 to i8*
   %5 = getelementptr inbounds i8, i8* %4, i64 16
@@ -10355,7 +10413,7 @@ entry:
 }
 
 ; Function Attrs: mustprogress nofree noinline norecurse nosync nounwind readnone willreturn
-define swiftcc %swift.metadata_response @"$s10BufferView09OutputRawA0VMa"(i64 %0) #25 {
+define swiftcc %swift.metadata_response @"$s10BufferView09OutputRawA0VMa"(i64 %0) #9 {
 entry:
   ret %swift.metadata_response { %swift.type* bitcast (i64* getelementptr inbounds (<{ i8*, i8**, i64, <{ i32, i32, i32, i32, i32, i32, i32 }>*, i32, i32 }>, <{ i8*, i8**, i64, <{ i32, i32, i32, i32, i32, i32, i32 }>*, i32, i32 }>* @"$s10BufferView09OutputRawA0VMf", i32 0, i32 2) to %swift.type*), i64 0 }
 }
@@ -10395,7 +10453,7 @@ entry:
   br i1 %8, label %9, label %"$sSv10storeBytes2of12toByteOffset2asyx_SixmtlFySPyxGXEfU_.exit", !prof !26
 
 9:                                                ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24
+  tail call void asm sideeffect "", "n"(i32 0) #25
   tail call void @llvm.trap()
   unreachable
 
@@ -10432,7 +10490,7 @@ entry:
   br i1 %15, label %16, label %"$sSV13loadUnaligned14fromByteOffset2asxSi_xmtlFxSryxGXEfU_.exit", !prof !26
 
 16:                                               ; preds = %entry
-  tail call void asm sideeffect "", "n"(i32 0) #24, !noalias !83
+  tail call void asm sideeffect "", "n"(i32 0) #25, !noalias !83
   tail call void @llvm.trap(), !noalias !83
   unreachable
 
@@ -10444,7 +10502,7 @@ entry:
   %20 = getelementptr inbounds i8*, i8** %T.valueWitnesses.i, i64 2
   %21 = bitcast i8** %20 to %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)**
   %22 = load %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)*, %swift.opaque* (%swift.opaque*, %swift.opaque*, %swift.type*)** %21, align 8, !invariant.load !17, !noalias !83
-  %23 = tail call %swift.opaque* %22(%swift.opaque* noalias %0, %swift.opaque* noalias %19, %swift.type* nonnull %T) #24
+  %23 = tail call %swift.opaque* %22(%swift.opaque* noalias %0, %swift.opaque* noalias %19, %swift.type* nonnull %T) #25
   ret void
 }
 
@@ -10452,10 +10510,10 @@ entry:
 declare extern_weak zeroext i1 @swift_stdlib_isStackAllocationSafe(i64 noundef, i64 noundef) local_unnamed_addr #26
 
 ; Function Attrs: nounwind
-declare i8* @swift_slowAlloc(i64, i64) local_unnamed_addr #24
+declare i8* @swift_slowAlloc(i64, i64) local_unnamed_addr #25
 
 ; Function Attrs: nounwind
-declare void @swift_slowDealloc(i8*, i64, i64) local_unnamed_addr #24
+declare void @swift_slowDealloc(i8*, i64, i64) local_unnamed_addr #25
 
 ; Function Attrs: mustprogress nofree noinline nounwind readonly willreturn
 define linkonce_odr hidden swiftcc %swift.metadata_response @__swift_instantiateGenericMetadata(i64 %0, i8* %1, i8* %2, i8* %3, %swift.type_descriptor* %4) local_unnamed_addr #27 {
@@ -10474,7 +10532,7 @@ entry:
 }
 
 ; Function Attrs: nofree nounwind readonly
-declare swiftcc %swift.metadata_response @swift_getGenericMetadata(i64, i8*, %swift.type_descriptor*) local_unnamed_addr #14
+declare swiftcc %swift.metadata_response @swift_getGenericMetadata(i64, i8*, %swift.type_descriptor*) local_unnamed_addr #15
 
 ; Function Attrs: nocallback nofree nosync nounwind readnone speculatable willreturn
 declare i64 @llvm.smin.i64(i64, i64) #28
@@ -10686,23 +10744,23 @@ attributes #5 = { noinline "frame-pointer"="non-leaf" "no-trapping-math"="true" 
 attributes #6 = { noinline nounwind "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
 attributes #7 = { nounwind "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
 attributes #8 = { nofree nosync nounwind readonly "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
-attributes #9 = { cold noreturn nounwind }
-attributes #10 = { argmemonly mustprogress nocallback nofree nosync nounwind willreturn }
-attributes #11 = { mustprogress nocallback nofree nosync nounwind readnone speculatable willreturn }
-attributes #12 = { mustprogress nofree noinline nosync nounwind readnone willreturn "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
-attributes #13 = { mustprogress nofree nounwind readonly willreturn }
-attributes #14 = { nofree nounwind readonly }
-attributes #15 = { inaccessiblememonly mustprogress nofree nounwind willreturn allockind("alloc,uninitialized") allocsize(0) "alloc-family"="malloc" }
-attributes #16 = { inaccessiblemem_or_argmemonly mustprogress nounwind willreturn allockind("free") "alloc-family"="malloc" }
-attributes #17 = { nofree noinline nosync nounwind readnone "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
-attributes #18 = { mustprogress nocallback nofree nosync nounwind willreturn }
-attributes #19 = { argmemonly mustprogress nocallback nofree nounwind willreturn }
-attributes #20 = { mustprogress nofree nosync nounwind readnone willreturn }
-attributes #21 = { nofree nounwind readonly "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
-attributes #22 = { argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
-attributes #23 = { argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
-attributes #24 = { nounwind }
-attributes #25 = { mustprogress nofree noinline norecurse nosync nounwind readnone willreturn "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
+attributes #9 = { mustprogress nofree noinline norecurse nosync nounwind readnone willreturn "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
+attributes #10 = { cold noreturn nounwind }
+attributes #11 = { argmemonly mustprogress nocallback nofree nosync nounwind willreturn }
+attributes #12 = { mustprogress nocallback nofree nosync nounwind readnone speculatable willreturn }
+attributes #13 = { mustprogress nofree noinline nosync nounwind readnone willreturn "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
+attributes #14 = { mustprogress nofree nounwind readonly willreturn }
+attributes #15 = { nofree nounwind readonly }
+attributes #16 = { inaccessiblememonly mustprogress nofree nounwind willreturn allockind("alloc,uninitialized") allocsize(0) "alloc-family"="malloc" }
+attributes #17 = { inaccessiblemem_or_argmemonly mustprogress nounwind willreturn allockind("free") "alloc-family"="malloc" }
+attributes #18 = { nofree noinline nosync nounwind readnone "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
+attributes #19 = { mustprogress nocallback nofree nosync nounwind willreturn }
+attributes #20 = { argmemonly mustprogress nocallback nofree nounwind willreturn }
+attributes #21 = { mustprogress nofree nosync nounwind readnone willreturn }
+attributes #22 = { nofree nounwind readonly "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
+attributes #23 = { argmemonly mustprogress nofree norecurse nosync nounwind readonly willreturn "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
+attributes #24 = { argmemonly mustprogress nofree norecurse nosync nounwind willreturn writeonly "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
+attributes #25 = { nounwind }
 attributes #26 = { optsize "frame-pointer"="non-leaf" "no-trapping-math"="true" "probe-stack"="__chkstk_darwin" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
 attributes #27 = { mustprogress nofree noinline nounwind readonly willreturn "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="apple-a12" "target-features"="+aes,+crc,+crypto,+fp-armv8,+fullfp16,+lse,+neon,+ras,+rcpc,+rdm,+sha2,+v8.1a,+v8.2a,+v8.3a,+v8a,+zcm,+zcz" }
 attributes #28 = { nocallback nofree nosync nounwind readnone speculatable willreturn }

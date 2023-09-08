@@ -14,9 +14,20 @@ public func bufferviewtest2(_ v: BufferView<Int>, _ n:Int) -> Int {
   return sum
 }
 
+// assert will not be emitted by swift compiler in release,
+// constraintelimination cannot see the redundant dominating check.
 public func bufferviewtest2b(_ v: BufferView<Int>, _ n:Int) -> Int {
   var sum = 0
   assert(n <= v.count)
+  for i in 0...n {
+    sum &+= v[v.startIndex.advanced(by: i)]
+  }
+  return sum
+}
+
+public func bufferviewtest2c(_ v: BufferView<Int>, _ n:Int) -> Int {
+  var sum = 0
+  precondition(n <= v.count)
   for i in 0...n {
     sum &+= v[v.startIndex.advanced(by: i)]
   }
