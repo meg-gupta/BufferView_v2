@@ -1,3 +1,4 @@
+// No bounds checks involved
 public func bufferviewtest1(_ v: BufferView<Int>) -> Int {
   var sum = 0
   for ele in v {
