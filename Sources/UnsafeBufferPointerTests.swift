@@ -1,3 +1,4 @@
+// stdlib does not generate a bounds check
 public func unsafebufferpointert1(_ v: UnsafeBufferPointer<Int>) -> Int {
   var sum = 0
   for ele in v {
@@ -6,6 +7,7 @@ public func unsafebufferpointert1(_ v: UnsafeBufferPointer<Int>) -> Int {
   return sum
 }
 
+// bounds check not hoisted
 public func unsafebufferpointert2(_ v: UnsafeBufferPointer<Int>, _ n:Int) -> Int {
   var sum = 0
   for i in 0...n {
@@ -14,6 +16,7 @@ public func unsafebufferpointert2(_ v: UnsafeBufferPointer<Int>, _ n:Int) -> Int
   return sum
 }
 
+// bounds check not hoisted (assert will not be visible to LLVM)
 public func unsafebufferpointert2b(_ v: UnsafeBufferPointer<Int>, _ n:Int) -> Int {
   var sum = 0
   assert(n <= v.count)
@@ -22,7 +25,7 @@ public func unsafebufferpointert2b(_ v: UnsafeBufferPointer<Int>, _ n:Int) -> In
   }
   return sum
 }
-
+// bounds check not eliminated, loop not vectorized
 public func unsafebufferpointert2c(_ v: UnsafeBufferPointer<Int>, _ n:Int) -> Int {
   var sum = 0
   precondition(n <= v.count)
@@ -31,7 +34,7 @@ public func unsafebufferpointert2c(_ v: UnsafeBufferPointer<Int>, _ n:Int) -> In
   }
   return sum
 }
-
+// stdlib does not generate a bounds check
 public func unsafebufferpointert3(_ v: UnsafeBufferPointer<Int>) -> Int {
   var sum = 0
   for i in v.indices {
